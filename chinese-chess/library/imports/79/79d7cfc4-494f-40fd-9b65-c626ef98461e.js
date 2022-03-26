@@ -11,7 +11,7 @@ cc.Class({
 
     onLoad: function onLoad() {
         this.node.config = {
-            CHESS_SIZE: 30,
+            CHESS_SIZE: 40,
             STEP: 60,
             CELL_SIZE: 60,
             BORDER_LEFT_BOARD: -240,

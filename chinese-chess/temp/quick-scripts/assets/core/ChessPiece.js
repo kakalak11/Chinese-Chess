@@ -17,7 +17,7 @@ cc.Class({
 
     onLoad: function onLoad() {
         this.node.init = this.init.bind(this);
-        this.node.sprite = this.sprite;
+        this.node.sprite = this.sprite.node;
     },
     init: function init(_ref, shortName) {
         var name = _ref.name;

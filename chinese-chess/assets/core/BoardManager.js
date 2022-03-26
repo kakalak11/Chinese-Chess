@@ -14,7 +14,7 @@ cc.Class({
     },
 
     initBoard() {
-        const { CHESS_LAYOUT, CHESS_INFO } = this.node.config;
+        const { CHESS_LAYOUT, CHESS_INFO, CHESS_SIZE } = this.node.config;
         this.chessPieces = [];
 
         //init for the bottom side
@@ -23,6 +23,7 @@ cc.Class({
             const chessPiece = cc.instantiate(this.chessPiecePrefab);
             chessPiece.parent = this.bottomSideHolder;
             chessPiece.sprite.color = this.redColor;
+            chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
             chessPiece.init(CHESS_INFO[chessName], chessName);
             let position;
             if (chessIndex > 5) {
@@ -42,6 +43,7 @@ cc.Class({
             const chessPiece = cc.instantiate(this.chessPiecePrefab);
             chessPiece.parent = this.topSideHolder;
             chessPiece.sprite.color = this.blueColor;
+            chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
             chessPiece.rotation = 180;
             chessPiece.init(CHESS_INFO[chessName], chessName);
             let position;

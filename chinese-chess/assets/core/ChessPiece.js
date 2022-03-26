@@ -10,7 +10,7 @@ cc.Class({
 
     onLoad() {
         this.node.init = this.init.bind(this);
-        this.node.sprite = this.sprite;
+        this.node.sprite = this.sprite.node;
     },
 
     init({ name }, shortName) {

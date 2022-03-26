@@ -21,7 +21,8 @@ cc.Class({
     initBoard: function initBoard() {
         var _node$config = this.node.config,
             CHESS_LAYOUT = _node$config.CHESS_LAYOUT,
-            CHESS_INFO = _node$config.CHESS_INFO;
+            CHESS_INFO = _node$config.CHESS_INFO,
+            CHESS_SIZE = _node$config.CHESS_SIZE;
 
         this.chessPieces = [];
 
@@ -31,6 +32,7 @@ cc.Class({
             var chessPiece = cc.instantiate(this.chessPiecePrefab);
             chessPiece.parent = this.bottomSideHolder;
             chessPiece.sprite.color = this.redColor;
+            chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
             chessPiece.init(CHESS_INFO[chessName], chessName);
             var position = void 0;
             if (chessIndex > 5) {
@@ -50,6 +52,7 @@ cc.Class({
             var _chessPiece = cc.instantiate(this.chessPiecePrefab);
             _chessPiece.parent = this.topSideHolder;
             _chessPiece.sprite.color = this.blueColor;
+            _chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
             _chessPiece.rotation = 180;
             _chessPiece.init(CHESS_INFO[_chessName], _chessName);
             var _position = void 0;
