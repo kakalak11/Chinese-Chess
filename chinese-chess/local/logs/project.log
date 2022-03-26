@@ -1,0 +1,75 @@
+2022-03-26T13:03:43.892Z - normal: Load ~/.CocosCreator/settings.json
+2022-03-26T13:03:43.926Z - normal: Initializing Asset Database
+2022-03-26T13:03:43.928Z - normal: checking language setting...
+2022-03-26T13:03:43.928Z - normal: Language: en
+2022-03-26T13:03:44.341Z - success: preview server running at http://localhost:7456
+2022-03-26T13:03:44.353Z - success: protocol editor-framework registered
+2022-03-26T13:03:44.354Z - success: protocol app registered
+2022-03-26T13:03:44.354Z - success: protocol theme registered
+2022-03-26T13:03:44.354Z - success: protocol packages registered
+2022-03-26T13:03:44.354Z - success: protocol uuid registerred
+2022-03-26T13:03:44.354Z - success: protocol db registerred
+2022-03-26T13:03:44.354Z - success: protocol thumbnail registerred
+2022-03-26T13:03:44.354Z - success: protocol unpack registerred
+2022-03-26T13:03:44.354Z - success: protocol disable-commonjs registerred
+2022-03-26T13:03:46.251Z - normal: connected!
+2022-03-26T13:03:46.253Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/chinese-chess
+2022-03-26T13:03:46.254Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/chinese-chess
+2022-03-26T13:03:46.483Z - normal: Initializing Cocos2d
+2022-03-26T13:03:46.851Z - normal: Initializing engine extends
+2022-03-26T13:03:46.863Z - success: alipay-adapter loaded
+2022-03-26T13:03:46.869Z - success: asset-db-debugger loaded
+2022-03-26T13:03:46.873Z - success: baidu-adapter loaded
+2022-03-26T13:03:46.875Z - success: color-picker loaded
+2022-03-26T13:03:46.947Z - success: fb-audience-network loaded
+2022-03-26T13:03:46.992Z - success: fb-live-stream loaded
+2022-03-26T13:03:46.995Z - success: google-play-instant loaded
+2022-03-26T13:03:46.998Z - success: huawei-runtime loaded
+2022-03-26T13:03:47.123Z - success: cpk-publish loaded
+2022-03-26T13:03:47.124Z - success: jsb-adapter loaded
+2022-03-26T13:03:47.127Z - success: oppo-runtime loaded
+2022-03-26T13:03:47.130Z - success: package-manager loaded
+2022-03-26T13:03:47.193Z - success: qqplay-adapter loaded
+2022-03-26T13:03:47.194Z - success: runtime-dev-tools loaded
+2022-03-26T13:03:47.214Z - success: sdkbox loaded
+2022-03-26T13:03:47.217Z - success: tester loaded
+2022-03-26T13:03:47.220Z - success: ui-kit-preview-extra loaded
+2022-03-26T13:03:47.222Z - success: ui-kit-preview loaded
+2022-03-26T13:03:47.224Z - success: ui-kit loaded
+2022-03-26T13:03:47.229Z - success: vivo-runtime loaded
+2022-03-26T13:03:47.230Z - success: weapp-adapter loaded
+2022-03-26T13:03:47.231Z - success: xiaomi-adapter loaded
+2022-03-26T13:03:47.233Z - success: alipay-minigame loaded
+2022-03-26T13:03:47.262Z - success: assets loaded
+2022-03-26T13:03:47.265Z - success: builder loaded
+2022-03-26T13:03:47.412Z - success: cocos-services loaded
+2022-03-26T13:03:47.417Z - success: console loaded
+2022-03-26T13:03:47.437Z - success: fb-instant-games loaded
+2022-03-26T13:03:47.440Z - success: game-window loaded
+2022-03-26T13:03:47.442Z - success: google-instant-games loaded
+2022-03-26T13:03:47.445Z - success: hierarchy loaded
+2022-03-26T13:03:47.447Z - success: inspector loaded
+2022-03-26T13:03:47.449Z - success: keystore loaded
+2022-03-26T13:03:47.452Z - success: node-library loaded
+2022-03-26T13:03:47.455Z - success: package-asset loaded
+2022-03-26T13:03:47.456Z - success: preferences loaded
+2022-03-26T13:03:47.458Z - success: project-exporter loaded
+2022-03-26T13:03:47.462Z - success: project-importer loaded
+2022-03-26T13:03:47.465Z - success: project-settings loaded
+2022-03-26T13:03:47.468Z - success: scene loaded
+2022-03-26T13:03:47.469Z - success: simulator-debugger loaded
+2022-03-26T13:03:47.472Z - success: sprite-editor loaded
+2022-03-26T13:03:47.476Z - success: store loaded
+2022-03-26T13:03:47.480Z - success: timeline loaded
+2022-03-26T13:03:47.483Z - success: xiaomi-runtime loaded
+2022-03-26T13:03:49.272Z - info: Cocos Services load base data!
+2022-03-26T13:03:50.786Z - normal: Loading packages
+2022-03-26T13:03:50.792Z - normal: Watching packages
+2022-03-26T13:03:50.866Z - normal: Run Application
+2022-03-26T13:04:26.848Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-26T13:05:28.192Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-26T13:56:39.880Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-26T14:07:27.951Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-26T14:08:12.953Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-26T14:11:40.206Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-26T14:13:33.920Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
