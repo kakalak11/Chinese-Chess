@@ -23,8 +23,8 @@ cc.Class({
             const chessPiece = cc.instantiate(this.chessPiecePrefab);
             chessPiece.parent = this.bottomSideHolder;
             chessPiece.sprite.color = this.redColor;
-            chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
-            chessPiece.init(CHESS_INFO[chessName], chessName);
+            // chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
+            chessPiece.init(CHESS_INFO[chessName], chessName, CHESS_SIZE);
             let position;
             if (chessIndex > 5) {
                 position = this._getPosition(CHESS_INFO[chessName], true, true);
@@ -43,9 +43,9 @@ cc.Class({
             const chessPiece = cc.instantiate(this.chessPiecePrefab);
             chessPiece.parent = this.topSideHolder;
             chessPiece.sprite.color = this.blueColor;
-            chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
+            // chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
             chessPiece.rotation = 180;
-            chessPiece.init(CHESS_INFO[chessName], chessName);
+            chessPiece.init(CHESS_INFO[chessName], chessName, CHESS_SIZE);
             let position;
             if (chessIndex > 5) {
                 position = this._getPosition(CHESS_INFO[chessName], false, true);

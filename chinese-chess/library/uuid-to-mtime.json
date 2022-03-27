@@ -435,13 +435,13 @@
     "relativePath": "prefab"
   },
   "ad3e358a-325d-41d3-9c85-cca00c5f3cdd": {
-    "asset": 1648304596706,
-    "meta": 1648304596723,
+    "asset": 1648377602565,
+    "meta": 1648377602575,
     "relativePath": "prefab/ChessPiece.prefab"
   },
   "3af24991-128e-4738-b8e8-c854a0d3411a": {
-    "asset": 1648304967998,
-    "meta": 1648304968023,
+    "asset": 1648378856582,
+    "meta": 1648378856594,
     "relativePath": "mainScene.fire"
   },
   "5534ac3a-bcb6-4ffc-bbaa-7c57e8611eec": {
@@ -449,19 +449,19 @@
     "meta": 1647962264228,
     "relativePath": "core/Director.js"
   },
-  "8b33b3f2-f7ce-4400-998d-71c7c372a6db": {
-    "asset": 1648304719116,
-    "meta": 1648304721780,
-    "relativePath": "core/BoardManager.js"
-  },
-  "a7bdbe47-95fc-467d-9287-97005b335a0d": {
-    "asset": 1648304757277,
-    "meta": 1648304762677,
-    "relativePath": "core/ChessPiece.js"
-  },
   "79d7cfc4-494f-40fd-9b65-c626ef98461e": {
     "asset": 1648304778136,
     "meta": 1648304778808,
     "relativePath": "core/Config.js"
+  },
+  "8b33b3f2-f7ce-4400-998d-71c7c372a6db": {
+    "asset": 1648377157188,
+    "meta": 1648377179083,
+    "relativePath": "core/BoardManager.js"
+  },
+  "a7bdbe47-95fc-467d-9287-97005b335a0d": {
+    "asset": 1648378830050,
+    "meta": 1648378831188,
+    "relativePath": "core/ChessPiece.js"
   }
 }
