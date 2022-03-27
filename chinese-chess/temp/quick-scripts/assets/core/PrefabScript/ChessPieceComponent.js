@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/core/ChessPiece.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'a7bdb5HlfxGfZKHlwBbM1oN', 'ChessPiece', __filename);
-// core/ChessPiece.js
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/core/PrefabScript/ChessPieceComponent.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, 'a7bdb5HlfxGfZKHlwBbM1oN', 'ChessPieceComponent', __filename);
+// core/PrefabScript/ChessPieceComponent.js
 
 'use strict';
 
@@ -100,5 +100,5 @@ cc._RF.pop();
             });
         }
         })();
-        //# sourceMappingURL=ChessPiece.js.map
+        //# sourceMappingURL=ChessPieceComponent.js.map
         

@@ -11,6 +11,7 @@ cc.Class({
 
     onLoad: function onLoad() {
         this.node.config = {
+            BOARD_FORMAT: [9, 9, 9, 9, 9, 9, 9, 9, 9],
             CHESS_SIZE: 40,
             STEP: 60,
             CELL_SIZE: 60,

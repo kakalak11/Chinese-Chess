@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, 'a7bdb5HlfxGfZKHlwBbM1oN', 'ChessPiece');
-// core/ChessPiece.js
+cc._RF.push(module, 'a7bdb5HlfxGfZKHlwBbM1oN', 'ChessPieceComponent');
+// core/PrefabScript/ChessPieceComponent.js
 
 'use strict';
 

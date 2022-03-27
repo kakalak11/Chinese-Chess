@@ -436,12 +436,12 @@
   },
   "ad3e358a-325d-41d3-9c85-cca00c5f3cdd": {
     "asset": 1648377602565,
-    "meta": 1648377602575,
-    "relativePath": "prefab/ChessPiece.prefab"
+    "meta": 1648398961912,
+    "relativePath": "prefab/ChessPiecePrefab.prefab"
   },
   "3af24991-128e-4738-b8e8-c854a0d3411a": {
-    "asset": 1648395296367,
-    "meta": 1648395296379,
+    "asset": 1648401092719,
+    "meta": 1648401092731,
     "relativePath": "mainScene.fire"
   },
   "5534ac3a-bcb6-4ffc-bbaa-7c57e8611eec": {
@@ -449,20 +449,10 @@
     "meta": 1647962264228,
     "relativePath": "core/Director.js"
   },
-  "79d7cfc4-494f-40fd-9b65-c626ef98461e": {
-    "asset": 1648304778136,
-    "meta": 1648304778808,
-    "relativePath": "core/Config.js"
-  },
   "a7bdbe47-95fc-467d-9287-97005b335a0d": {
     "asset": 1648379570531,
-    "meta": 1648379575509,
-    "relativePath": "core/ChessPiece.js"
-  },
-  "8b33b3f2-f7ce-4400-998d-71c7c372a6db": {
-    "asset": 1648380362461,
-    "meta": 1648380364758,
-    "relativePath": "core/BoardManager.js"
+    "meta": 1648399092202,
+    "relativePath": "core/PrefabScript/ChessPieceComponent.js"
   },
   "330d8511-4b72-4287-a1ab-eda72518330b": {
     "asset": 1648381201337,
@@ -475,8 +465,68 @@
     "relativePath": "sprite/red_dot.png"
   },
   "134833b2-92e5-45c2-bcd4-a0a90db1fad5": {
-    "asset": 1648395454481,
-    "meta": 1648395456620,
-    "relativePath": "test.fire"
+    "asset": 1648397103326,
+    "meta": 1648397103337,
+    "relativePath": "test/test.fire"
+  },
+  "0ef16fb4-0c14-4338-bbca-ed51e2566e7f": {
+    "asset": 1648395995526,
+    "meta": 1648395995527,
+    "relativePath": "test"
+  },
+  "4668f267-5617-479b-9074-a7b0bd0268df": {
+    "asset": 1648396004257,
+    "meta": 1648396004257,
+    "relativePath": "test/script"
+  },
+  "cc2351ac-f73b-4a67-b448-7ba2b3446cb4": {
+    "asset": 1648396014579,
+    "meta": 1648396014618,
+    "relativePath": "test/script/NewScript.js"
+  },
+  "c78b6e6c-1629-42b1-8452-b6e4e19c0842": {
+    "asset": 1648396471710,
+    "meta": 1648396471730,
+    "relativePath": "test/script/NewScript.ts"
+  },
+  "6d23edb1-5c45-46c5-b8ca-c403ad330889": {
+    "asset": 1648397087947,
+    "meta": 1648397089050,
+    "relativePath": "test/script/positionHolderComponent.ts"
+  },
+  "c7462e8e-fec1-4edf-915e-078a8f48d9d4": {
+    "asset": 1648399174132,
+    "meta": 1648399174139,
+    "relativePath": "prefab/PositionIndicatorPrefab.prefab"
+  },
+  "79d7cfc4-494f-40fd-9b65-c626ef98461e": {
+    "asset": 1648397968670,
+    "meta": 1648397976165,
+    "relativePath": "core/Config.js"
+  },
+  "be8316ab-2cc8-4f6f-8287-fcaafeeed835": {
+    "asset": 1648399006666,
+    "meta": 1648399006667,
+    "relativePath": "core/PrefabScript"
+  },
+  "9365a61d-d745-4b2d-82e7-998712b36b9e": {
+    "asset": 1648399759417,
+    "meta": 1648399763381,
+    "relativePath": "core/PrefabScript/PositionIndicatorComponent.ts"
+  },
+  "46f575da-1352-4a30-a3d9-0496133236e7": {
+    "asset": 1648399847778,
+    "meta": 1648399848460,
+    "relativePath": "core/BoardMapHolder.ts"
+  },
+  "8b33b3f2-f7ce-4400-998d-71c7c372a6db": {
+    "asset": 1648400222957,
+    "meta": 1648400227641,
+    "relativePath": "core/BoardManager.js"
+  },
+  "192881d0-f5fa-4da5-83cf-25d8e0321207": {
+    "asset": 1648400260598,
+    "meta": 1648401084162,
+    "relativePath": "core/PrefabScript/BoardManager.ts"
   }
 }
