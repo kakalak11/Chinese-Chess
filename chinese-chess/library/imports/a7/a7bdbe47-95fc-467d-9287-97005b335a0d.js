@@ -31,6 +31,8 @@ cc.Class({
             this.node.on(cc.Node.EventType.MOUSE_DOWN, this.onMouseDown, this);
             this.node.on(cc.Node.EventType.MOUSE_UP, this.onMouseUp, this);
         }
+
+        this.node.on('RESET', this.reset, this);
     },
     init: function init(_ref, shortName, chessSize) {
         var name = _ref.name;
@@ -43,6 +45,7 @@ cc.Class({
         this.sprite.node.setContentSize(chessSize, chessSize);
     },
     onMouseEnter: function onMouseEnter() {
+        if (this.isSelected) return;
         if (this._tweenUnselect) this._tweenUnselect.stop();
         if (!this._tweenSelect) {
             this._tweenSelect = cc.tween(this.sprite.node).to(CONFIG.TWEEN_TIME, { scale: CONFIG.SELECT_SCALE });
@@ -61,6 +64,9 @@ cc.Class({
         if (this.isSelected) {
             this.isSelected = false;
             this.onMouseLeave();
+            var unselectEvent = new cc.Event.EventCustom('CHESS_UNSELECT', true);
+
+            this.node.dispatchEvent(unselectEvent);
             return;
         }
         if (!this._tweenHighlight) {
@@ -70,15 +76,16 @@ cc.Class({
         this.isSelected = true;
     },
     onMouseUp: function onMouseUp() {
-        var _this = this;
-
         if (!this.isSelected) return;
         var selectEvent = new cc.Event.EventCustom('CHESS_SELECT', true);
         selectEvent.chessName = this.node.chessName;
         selectEvent.side = this.node.parent.name === 'Top_side' ? 'top' : 'bot';
-        this.scheduleOnce(function () {
-            _this.node.dispatchEvent(selectEvent);
-        }, 0.5);
+
+        this.node.dispatchEvent(selectEvent);
+    },
+    reset: function reset() {
+        this.isSelected = null;
+        this._tweenUnselect.start();
     }
 });
 

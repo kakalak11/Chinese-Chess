@@ -24,6 +24,8 @@ cc.Class({
             this.node.on(cc.Node.EventType.MOUSE_DOWN, this.onMouseDown, this);
             this.node.on(cc.Node.EventType.MOUSE_UP, this.onMouseUp, this);
         }
+
+        this.node.on('RESET', this.reset, this);
     },
 
     init({ name }, shortName, chessSize) {
@@ -36,6 +38,7 @@ cc.Class({
     },
 
     onMouseEnter() {
+        if (this.isSelected) return;
         if (this._tweenUnselect) this._tweenUnselect.stop();
         if (!this._tweenSelect) {
             this._tweenSelect = cc.tween(this.sprite.node)
@@ -58,6 +61,9 @@ cc.Class({
         if (this.isSelected) {
             this.isSelected = false;
             this.onMouseLeave();
+            const unselectEvent = new cc.Event.EventCustom('CHESS_UNSELECT', true);
+
+            this.node.dispatchEvent(unselectEvent);
             return;
         }
         if (!this._tweenHighlight) {
@@ -74,8 +80,12 @@ cc.Class({
         const selectEvent = new cc.Event.EventCustom('CHESS_SELECT', true);
         selectEvent.chessName = this.node.chessName;
         selectEvent.side = this.node.parent.name === 'Top_side' ? 'top' : 'bot';
-        this.scheduleOnce(() => {
-            this.node.dispatchEvent(selectEvent);
-        }, 0.5);
+
+        this.node.dispatchEvent(selectEvent);
     },
+
+    reset() {
+        this.isSelected = null;
+        this._tweenUnselect.start();
+    }
 });

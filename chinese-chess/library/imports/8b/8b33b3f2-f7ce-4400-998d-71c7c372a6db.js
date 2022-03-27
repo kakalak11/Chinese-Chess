@@ -15,6 +15,9 @@ cc.Class({
 
     onLoad: function onLoad() {
         this.node.on('INIT_BOARD', this.initBoard, this);
+        this.node.on('CHESS_SELECT', this.onChessSelect, this);
+        this.node.on('CHESS_UNSELECT', this.onChessUnselect, this);
+
         this.redColor = cc.Color.RED;
         this.blueColor = cc.Color.BLUE;
     },
@@ -32,7 +35,6 @@ cc.Class({
             var chessPiece = cc.instantiate(this.chessPiecePrefab);
             chessPiece.parent = this.bottomSideHolder;
             chessPiece.sprite.color = this.redColor;
-            // chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
             chessPiece.init(CHESS_INFO[chessName], chessName, CHESS_SIZE);
             var position = void 0;
             if (chessIndex > 5) {
@@ -52,7 +54,6 @@ cc.Class({
             var _chessPiece = cc.instantiate(this.chessPiecePrefab);
             _chessPiece.parent = this.topSideHolder;
             _chessPiece.sprite.color = this.blueColor;
-            // chessPiece.sprite.setContentSize(CHESS_SIZE, CHESS_SIZE);
             _chessPiece.rotation = 180;
             _chessPiece.init(CHESS_INFO[_chessName], _chessName, CHESS_SIZE);
             var _position = void 0;
@@ -112,6 +113,27 @@ cc.Class({
                 return new cc.v2(_xPosition2, _yPosition2);
             }
         }
+    },
+    onChessSelect: function onChessSelect(event) {
+        event.stopPropagation();
+        if (event.target === this.selectedChess && event.target !== null) {
+            this.selectedChess.emit('RESET');
+            this.selectedChess = null;
+            return;
+        }
+
+        if (!this.selectedChess) {
+            this.selectedChess = event.target;
+            return;
+        }
+
+        if (!this.targetChess) {
+            this.targetChess = event.target;
+        }
+    },
+    onChessUnselect: function onChessUnselect(event) {
+        event.stopPropagation();
+        this.selectedChess = null;
     }
 });
 
