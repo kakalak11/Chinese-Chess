@@ -440,8 +440,8 @@
     "relativePath": "prefab/ChessPiece.prefab"
   },
   "3af24991-128e-4738-b8e8-c854a0d3411a": {
-    "asset": 1648381450412,
-    "meta": 1648381450433,
+    "asset": 1648395296367,
+    "meta": 1648395296379,
     "relativePath": "mainScene.fire"
   },
   "5534ac3a-bcb6-4ffc-bbaa-7c57e8611eec": {
@@ -474,9 +474,9 @@
     "meta": 1648381213724,
     "relativePath": "sprite/red_dot.png"
   },
-  "3bf7e67b-acbe-4a2e-bd64-7567d1d2e8ed": {
-    "asset": 1648395084332,
-    "meta": 1648395084337,
+  "134833b2-92e5-45c2-bcd4-a0a90db1fad5": {
+    "asset": 1648395454481,
+    "meta": 1648395456620,
     "relativePath": "test.fire"
   }
 }
