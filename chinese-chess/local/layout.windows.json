@@ -1,7 +1,6 @@
 {
   "version": "1.1.1",
   "windows": {
-    "worker": {},
     "main": {
       "main": true,
       "url": "app://editor/index.html",
@@ -19,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 432.578125,
+                "height": 433,
                 "type": "panel",
                 "width": 465
               },
@@ -28,7 +27,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 441.421875,
+                "height": 441,
                 "type": "panel",
                 "width": 465
               }
@@ -44,7 +43,7 @@
                 "children": [
                   "scene"
                 ],
-                "height": 607.734375,
+                "height": 608,
                 "type": "panel",
                 "width": 695
               },
@@ -55,7 +54,7 @@
                   "timeline",
                   "game-window"
                 ],
-                "height": 266.265625,
+                "height": 266,
                 "type": "panel",
                 "width": 695
               }

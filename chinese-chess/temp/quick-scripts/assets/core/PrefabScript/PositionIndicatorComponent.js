@@ -16,6 +16,7 @@ var PositionIndicatorComponent = /** @class */ (function (_super) {
     ;
     PositionIndicatorComponent.prototype.onMouseDown = function () {
         var eventClick = new cc.Event.EventCustom('CLICK', true);
+        eventClick['position'] = this.node.getPosition();
         this.node.dispatchEvent(eventClick);
     };
     ;

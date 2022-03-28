@@ -1,16 +1,10 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/core/Config.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'd8ccfG6PGVKIJ7Rid3+x/w/', 'Config', __filename);
-// core/Config.ts
+const { ccclass, property } = cc._decorator;
 
-Object.defineProperty(exports, "__esModule", { value: true });
-var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var Config = /** @class */ (function (_super) {
-    __extends(Config, _super);
-    function Config() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    Config.prototype.onLoad = function () {
-        this.node.config = {
+@ccclass
+export default class Config extends cc.Component {
+
+    protected onLoad(): void {
+        (this.node as any).config = {
             BOARD_FORMAT: [9, 9, 9, 9, 9, 9, 9, 9, 9],
             CHESS_SIZE: 40,
             STEP: 60,
@@ -61,26 +55,6 @@ var Config = /** @class */ (function (_super) {
                     isPawn: true,
                 }
             },
-        };
+        }
     };
-    ;
-    Config = __decorate([
-        ccclass
-    ], Config);
-    return Config;
-}(cc.Component));
-exports.default = Config;
-
-cc._RF.pop();
-        }
-        if (CC_EDITOR) {
-            __define(__module.exports, __require, __module);
-        }
-        else {
-            cc.registerModuleFunc(__filename, function () {
-                __define(__module.exports, __require, __module);
-            });
-        }
-        })();
-        //# sourceMappingURL=Config.js.map
-        
+}

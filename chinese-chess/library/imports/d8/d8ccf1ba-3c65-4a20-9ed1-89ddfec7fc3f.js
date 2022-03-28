@@ -1,5 +1,5 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/core/Config.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'd8ccfG6PGVKIJ7Rid3+x/w/', 'Config', __filename);
+"use strict";
+cc._RF.push(module, 'd8ccfG6PGVKIJ7Rid3+x/w/', 'Config');
 // core/Config.ts
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -72,15 +72,3 @@ var Config = /** @class */ (function (_super) {
 exports.default = Config;
 
 cc._RF.pop();
-        }
-        if (CC_EDITOR) {
-            __define(__module.exports, __require, __module);
-        }
-        else {
-            cc.registerModuleFunc(__filename, function () {
-                __define(__module.exports, __require, __module);
-            });
-        }
-        })();
-        //# sourceMappingURL=Config.js.map
-        

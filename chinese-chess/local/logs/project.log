@@ -1,68 +1,133 @@
-2022-03-28T09:01:37.769Z - normal: Load ~/.CocosCreator/settings.json
-2022-03-28T09:01:37.822Z - normal: Initializing Asset Database
-2022-03-28T09:01:37.824Z - normal: checking language setting...
-2022-03-28T09:01:37.824Z - normal: Language: en
-2022-03-28T09:01:38.489Z - success: preview server running at http://localhost:7457
-2022-03-28T09:01:38.502Z - success: protocol editor-framework registered
-2022-03-28T09:01:38.502Z - success: protocol app registered
-2022-03-28T09:01:38.502Z - success: protocol theme registered
-2022-03-28T09:01:38.502Z - success: protocol packages registered
-2022-03-28T09:01:38.502Z - success: protocol uuid registerred
-2022-03-28T09:01:38.502Z - success: protocol db registerred
-2022-03-28T09:01:38.503Z - success: protocol thumbnail registerred
-2022-03-28T09:01:38.503Z - success: protocol unpack registerred
-2022-03-28T09:01:38.503Z - success: protocol disable-commonjs registerred
-2022-03-28T09:01:41.492Z - normal: failed to connect login server due to request timeout
-2022-03-28T09:01:41.493Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
-2022-03-28T09:01:41.494Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
-2022-03-28T09:01:41.803Z - normal: Initializing Cocos2d
-2022-03-28T09:01:42.411Z - normal: Initializing engine extends
-2022-03-28T09:01:42.435Z - success: alipay-adapter loaded
-2022-03-28T09:01:42.446Z - success: asset-db-debugger loaded
-2022-03-28T09:01:42.452Z - success: baidu-adapter loaded
-2022-03-28T09:01:42.453Z - success: color-picker loaded
-2022-03-28T09:01:42.562Z - success: fb-audience-network loaded
-2022-03-28T09:01:42.603Z - success: fb-live-stream loaded
-2022-03-28T09:01:42.605Z - success: google-play-instant loaded
-2022-03-28T09:01:42.610Z - success: huawei-runtime loaded
-2022-03-28T09:01:42.808Z - success: cpk-publish loaded
-2022-03-28T09:01:42.809Z - success: jsb-adapter loaded
-2022-03-28T09:01:42.813Z - success: oppo-runtime loaded
-2022-03-28T09:01:42.817Z - success: package-manager loaded
-2022-03-28T09:01:42.922Z - success: qqplay-adapter loaded
-2022-03-28T09:01:42.924Z - success: runtime-dev-tools loaded
-2022-03-28T09:01:42.950Z - success: sdkbox loaded
-2022-03-28T09:01:42.955Z - success: tester loaded
-2022-03-28T09:01:42.958Z - success: ui-kit-preview-extra loaded
-2022-03-28T09:01:42.961Z - success: ui-kit-preview loaded
-2022-03-28T09:01:42.964Z - success: ui-kit loaded
-2022-03-28T09:01:42.970Z - success: vivo-runtime loaded
-2022-03-28T09:01:42.976Z - success: weapp-adapter loaded
-2022-03-28T09:01:42.977Z - success: xiaomi-adapter loaded
-2022-03-28T09:01:42.979Z - success: alipay-minigame loaded
-2022-03-28T09:01:43.017Z - success: assets loaded
-2022-03-28T09:01:43.021Z - success: builder loaded
-2022-03-28T09:01:43.256Z - success: cocos-services loaded
-2022-03-28T09:01:43.261Z - success: console loaded
-2022-03-28T09:01:43.294Z - success: fb-instant-games loaded
-2022-03-28T09:01:43.298Z - success: game-window loaded
-2022-03-28T09:01:43.299Z - success: google-instant-games loaded
-2022-03-28T09:01:43.304Z - success: hierarchy loaded
-2022-03-28T09:01:43.308Z - success: inspector loaded
-2022-03-28T09:01:43.310Z - success: keystore loaded
-2022-03-28T09:01:43.314Z - success: node-library loaded
-2022-03-28T09:01:43.316Z - success: package-asset loaded
-2022-03-28T09:01:43.317Z - success: preferences loaded
-2022-03-28T09:01:43.320Z - success: project-exporter loaded
-2022-03-28T09:01:43.328Z - success: project-importer loaded
-2022-03-28T09:01:43.332Z - success: project-settings loaded
-2022-03-28T09:01:43.337Z - success: scene loaded
-2022-03-28T09:01:43.338Z - success: simulator-debugger loaded
-2022-03-28T09:01:43.339Z - success: sprite-editor loaded
-2022-03-28T09:01:43.344Z - success: store loaded
-2022-03-28T09:01:43.353Z - success: timeline loaded
-2022-03-28T09:01:43.358Z - success: xiaomi-runtime loaded
-2022-03-28T09:01:45.633Z - info: Cocos Services load base data!
-2022-03-28T09:01:48.354Z - normal: Loading packages
-2022-03-28T09:01:48.359Z - normal: Watching packages
-2022-03-28T09:01:48.445Z - normal: Run Application
+2022-03-28T12:21:15.638Z - normal: Load ~/.CocosCreator/settings.json
+2022-03-28T12:21:15.686Z - normal: Initializing Asset Database
+2022-03-28T12:21:15.688Z - normal: checking language setting...
+2022-03-28T12:21:15.688Z - normal: Language: en
+2022-03-28T12:21:16.343Z - success: preview server running at http://localhost:7457
+2022-03-28T12:21:16.351Z - success: protocol editor-framework registered
+2022-03-28T12:21:16.351Z - success: protocol app registered
+2022-03-28T12:21:16.351Z - success: protocol theme registered
+2022-03-28T12:21:16.351Z - success: protocol packages registered
+2022-03-28T12:21:16.352Z - success: protocol uuid registerred
+2022-03-28T12:21:16.352Z - success: protocol db registerred
+2022-03-28T12:21:16.352Z - success: protocol thumbnail registerred
+2022-03-28T12:21:16.352Z - success: protocol unpack registerred
+2022-03-28T12:21:16.352Z - success: protocol disable-commonjs registerred
+2022-03-28T12:21:17.961Z - normal: connected!
+2022-03-28T12:21:17.963Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
+2022-03-28T12:21:17.964Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
+2022-03-28T12:21:18.329Z - normal: Initializing Cocos2d
+2022-03-28T12:21:18.979Z - normal: Initializing engine extends
+2022-03-28T12:21:19.022Z - success: alipay-adapter loaded
+2022-03-28T12:21:19.030Z - success: asset-db-debugger loaded
+2022-03-28T12:21:19.034Z - success: baidu-adapter loaded
+2022-03-28T12:21:19.039Z - success: color-picker loaded
+2022-03-28T12:21:19.185Z - success: fb-audience-network loaded
+2022-03-28T12:21:19.233Z - success: fb-live-stream loaded
+2022-03-28T12:21:19.236Z - success: google-play-instant loaded
+2022-03-28T12:21:19.240Z - success: huawei-runtime loaded
+2022-03-28T12:21:19.450Z - success: cpk-publish loaded
+2022-03-28T12:21:19.452Z - success: jsb-adapter loaded
+2022-03-28T12:21:19.457Z - success: oppo-runtime loaded
+2022-03-28T12:21:19.462Z - success: package-manager loaded
+2022-03-28T12:21:19.595Z - success: qqplay-adapter loaded
+2022-03-28T12:21:19.598Z - success: runtime-dev-tools loaded
+2022-03-28T12:21:19.624Z - success: sdkbox loaded
+2022-03-28T12:21:19.629Z - success: tester loaded
+2022-03-28T12:21:19.632Z - success: ui-kit-preview-extra loaded
+2022-03-28T12:21:19.636Z - success: ui-kit-preview loaded
+2022-03-28T12:21:19.639Z - success: ui-kit loaded
+2022-03-28T12:21:19.645Z - success: vivo-runtime loaded
+2022-03-28T12:21:19.647Z - success: weapp-adapter loaded
+2022-03-28T12:21:19.649Z - success: xiaomi-adapter loaded
+2022-03-28T12:21:19.652Z - success: alipay-minigame loaded
+2022-03-28T12:21:19.685Z - success: assets loaded
+2022-03-28T12:21:19.688Z - success: builder loaded
+2022-03-28T12:21:19.943Z - success: cocos-services loaded
+2022-03-28T12:21:19.948Z - success: console loaded
+2022-03-28T12:21:19.976Z - success: fb-instant-games loaded
+2022-03-28T12:21:19.981Z - success: game-window loaded
+2022-03-28T12:21:19.982Z - success: google-instant-games loaded
+2022-03-28T12:21:19.988Z - success: hierarchy loaded
+2022-03-28T12:21:19.992Z - success: inspector loaded
+2022-03-28T12:21:19.994Z - success: keystore loaded
+2022-03-28T12:21:19.999Z - success: node-library loaded
+2022-03-28T12:21:20.000Z - success: package-asset loaded
+2022-03-28T12:21:20.001Z - success: preferences loaded
+2022-03-28T12:21:20.004Z - success: project-exporter loaded
+2022-03-28T12:21:20.008Z - success: project-importer loaded
+2022-03-28T12:21:20.011Z - success: project-settings loaded
+2022-03-28T12:21:20.016Z - success: scene loaded
+2022-03-28T12:21:20.018Z - success: simulator-debugger loaded
+2022-03-28T12:21:20.019Z - success: sprite-editor loaded
+2022-03-28T12:21:20.023Z - success: store loaded
+2022-03-28T12:21:20.031Z - success: timeline loaded
+2022-03-28T12:21:20.035Z - success: xiaomi-runtime loaded
+2022-03-28T12:21:21.105Z - normal: Loading packages
+2022-03-28T12:21:21.109Z - normal: Watching packages
+2022-03-28T12:21:21.192Z - normal: Run Application
+2022-03-28T12:21:22.052Z - info: Cocos Services load base data!
+2022-03-28T12:30:36.252Z - error: Can not find cc.Component in the script 19288HQ9fpNpYPPJdjgMhIH.
+    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
+    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2022-03-28T12:30:55.715Z - error: Can not find cc.Component in the script 19288HQ9fpNpYPPJdjgMhIH.
+    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
+    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2022-03-28T12:31:39.322Z - error: Can not find cc.Component in the script 19288HQ9fpNpYPPJdjgMhIH.
+    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
+    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2022-03-28T12:36:16.257Z - warn: Script attached to "BoardMap" is missing or invalid. Detailed information:
+Node path: "Canvas/MainGame/MainBoard/BoardMap"
+Script UUID: "79d7cfc4-494f-40fd-9b65-c626ef98461e"
+Class ID: "79d7c/ESU9A/ZtlxibvmEYe"
+
+2022-03-28T12:38:46.102Z - error: Can not find cc.Component in the script d8ccfG6PGVKIJ7Rid3+x/w/.
+    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
+    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2022-03-28T12:38:51.874Z - error: Can not find cc.Component in the script d8ccfG6PGVKIJ7Rid3+x/w/.
+    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
+    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2022-03-28T12:50:06.426Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
+Node path: "ChessPiece"
+Asset url: "db://assets/prefab/ChessPiecePrefab.prefab"
+Script UUID: "a7bdbe47-95fc-467d-9287-97005b335a0d"
+Class ID: "a7bdb5HlfxGfZKHlwBbM1oN"
+
+2022-03-28T12:53:54.453Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
+Node path: "ChessPiece"
+Asset url: "db://assets/prefab/ChessPiecePrefab.prefab"
+Script UUID: "a7bdbe47-95fc-467d-9287-97005b335a0d"
+Class ID: "a7bdb5HlfxGfZKHlwBbM1oN"
+
+2022-03-28T12:54:01.145Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
+Node path: "ChessPiece"
+Asset url: "db://assets/prefab/ChessPiecePrefab.prefab"
+Script UUID: "a7bdbe47-95fc-467d-9287-97005b335a0d"
+Class ID: "a7bdb5HlfxGfZKHlwBbM1oN"
+
+2022-03-28T12:54:01.158Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
+Node path: "ChessPiece"
+Asset url: "db://assets/prefab/ChessPiecePrefab.prefab"
+Script UUID: "a7bdbe47-95fc-467d-9287-97005b335a0d"
+Class ID: "a7bdb5HlfxGfZKHlwBbM1oN"
+
+2022-03-28T12:54:19.924Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.

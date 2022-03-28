@@ -1,5 +1,5 @@
-"use strict";
-cc._RF.push(module, '46f57XaE1JKMKPZBJYTMjbn', 'BoardMapComponent');
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/core/Board/BoardMapComponent.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, '46f57XaE1JKMKPZBJYTMjbn', 'BoardMapComponent', __filename);
 // core/Board/BoardMapComponent.ts
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -46,3 +46,15 @@ var BoardMapComponent = /** @class */ (function (_super) {
 exports.default = BoardMapComponent;
 
 cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=BoardMapComponent.js.map
+        

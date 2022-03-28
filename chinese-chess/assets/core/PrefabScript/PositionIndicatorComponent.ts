@@ -11,6 +11,8 @@ export default class PositionIndicatorComponent extends cc.Component {
     protected onMouseDown(): void {
         const eventClick = new cc.Event.EventCustom('CLICK', true);
 
+        eventClick['position'] = this.node.getPosition();
+
         this.node.dispatchEvent(eventClick);
     };
 
