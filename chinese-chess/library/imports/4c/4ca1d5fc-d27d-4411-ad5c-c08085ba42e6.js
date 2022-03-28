@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, 'c78b65sFilCsYRStuThnAhC', 'NewScript');
+cc._RF.push(module, '4ca1dX80n1EEa1cwICFukLm', 'NewScript');
 // test/script/NewScript.ts
 
 // Learn TypeScript:

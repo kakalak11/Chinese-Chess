@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, '6d23e2xXEVGxbjKxAOtMwiJ', 'positionHolderComponent');
+cc._RF.push(module, '7099fFHRrlAc5hhRWr6uQvs', 'positionHolderComponent');
 // test/script/positionHolderComponent.ts
 
 // Learn TypeScript:

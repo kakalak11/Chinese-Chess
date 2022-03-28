@@ -18,6 +18,7 @@ export default class BoardManager extends cc.Component {
     selectedChess: cc.Node;
     targetChess: cc.Node;
     selectedPosition: cc.Vec2;
+    _moveTween: cc.Tween;
 
     protected onLoad(): void {
         this.node.on('INIT', this.init, this);
@@ -58,7 +59,8 @@ export default class BoardManager extends cc.Component {
             const chessPiece = cc.instantiate(this.chessPiecePrefab);
             chessPiece.parent = this.topSideHolder;
             (chessPiece as any).sprite.color = this.blueColor;
-            chessPiece.rotation = 180;
+            // chessPiece.rotation = 180;
+            chessPiece.scaleY = -1;
             (chessPiece as any).init(CHESS_INFO[chessName], chessName, CHESS_SIZE);
             let position;
             if (chessIndex > 5) {
@@ -134,8 +136,17 @@ export default class BoardManager extends cc.Component {
     protected onClickPosition(event): void {
         if (!event && !event.position) return;
         if (!this.selectedChess || this.targetChess) return;
+
+        const { TIME_TWEEN_MOVE } = (this.node as any).config;
+
         this.selectedPosition = event.position;
 
-        
+        this._moveTween = cc.tween(this.selectedChess)
+            .to(TIME_TWEEN_MOVE, { position: this.selectedPosition })
+            .call(() => {
+                this._moveTween = null;
+                (this.selectedChess as any).unselect();
+                (this.selectedChess as any).onMouseLeave();
+            })
     }
 };

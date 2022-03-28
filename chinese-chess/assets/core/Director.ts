@@ -10,6 +10,6 @@ export default class Director extends cc.Component {
     };
 
     protected start(): void {
-        this.mainBoard.emit('INIT_BOARD');
+        this.mainBoard.emit('INIT');
     };
 }

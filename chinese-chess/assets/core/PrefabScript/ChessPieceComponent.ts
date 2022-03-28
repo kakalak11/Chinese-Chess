@@ -14,6 +14,12 @@ export default class ChessPieceComponent extends cc.Component {
     @property(cc.Label)
     label: cc.Label = null;
 
+    // @property(cc.Node)
+    // overlay: cc.Node = null;
+
+    // @property(cc.Node)
+    // eventNode: cc.Node = null;
+
     isSelected: boolean;
     _tweenUnselect: cc.Tween;
     _tweenSelect: cc.Tween;
@@ -21,7 +27,10 @@ export default class ChessPieceComponent extends cc.Component {
 
     protected onLoad(): void {
         (this.node as any).init = this.init.bind(this);
+        (this.node as any).unselect = this.unselect.bind(this);
+        (this.node as any).onMouseLeave = this.onMouseLeave.bind(this);
         (this.node as any).sprite = this.sprite.node;
+        (this.node as any).isSelected = this.isSelected;
 
         if (this.node) {
             this.node.on(cc.Node.EventType.MOUSE_ENTER, this.onMouseEnter, this);
@@ -88,6 +97,10 @@ export default class ChessPieceComponent extends cc.Component {
 
         this.node.dispatchEvent(selectEvent);
     };
+
+    unselect() {
+        this.isSelected = false;
+    }
 
     reset() {
         this.isSelected = null;

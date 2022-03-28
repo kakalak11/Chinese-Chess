@@ -1,133 +1,143 @@
-2022-03-28T12:21:15.638Z - normal: Load ~/.CocosCreator/settings.json
-2022-03-28T12:21:15.686Z - normal: Initializing Asset Database
-2022-03-28T12:21:15.688Z - normal: checking language setting...
-2022-03-28T12:21:15.688Z - normal: Language: en
-2022-03-28T12:21:16.343Z - success: preview server running at http://localhost:7457
-2022-03-28T12:21:16.351Z - success: protocol editor-framework registered
-2022-03-28T12:21:16.351Z - success: protocol app registered
-2022-03-28T12:21:16.351Z - success: protocol theme registered
-2022-03-28T12:21:16.351Z - success: protocol packages registered
-2022-03-28T12:21:16.352Z - success: protocol uuid registerred
-2022-03-28T12:21:16.352Z - success: protocol db registerred
-2022-03-28T12:21:16.352Z - success: protocol thumbnail registerred
-2022-03-28T12:21:16.352Z - success: protocol unpack registerred
-2022-03-28T12:21:16.352Z - success: protocol disable-commonjs registerred
-2022-03-28T12:21:17.961Z - normal: connected!
-2022-03-28T12:21:17.963Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
-2022-03-28T12:21:17.964Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
-2022-03-28T12:21:18.329Z - normal: Initializing Cocos2d
-2022-03-28T12:21:18.979Z - normal: Initializing engine extends
-2022-03-28T12:21:19.022Z - success: alipay-adapter loaded
-2022-03-28T12:21:19.030Z - success: asset-db-debugger loaded
-2022-03-28T12:21:19.034Z - success: baidu-adapter loaded
-2022-03-28T12:21:19.039Z - success: color-picker loaded
-2022-03-28T12:21:19.185Z - success: fb-audience-network loaded
-2022-03-28T12:21:19.233Z - success: fb-live-stream loaded
-2022-03-28T12:21:19.236Z - success: google-play-instant loaded
-2022-03-28T12:21:19.240Z - success: huawei-runtime loaded
-2022-03-28T12:21:19.450Z - success: cpk-publish loaded
-2022-03-28T12:21:19.452Z - success: jsb-adapter loaded
-2022-03-28T12:21:19.457Z - success: oppo-runtime loaded
-2022-03-28T12:21:19.462Z - success: package-manager loaded
-2022-03-28T12:21:19.595Z - success: qqplay-adapter loaded
-2022-03-28T12:21:19.598Z - success: runtime-dev-tools loaded
-2022-03-28T12:21:19.624Z - success: sdkbox loaded
-2022-03-28T12:21:19.629Z - success: tester loaded
-2022-03-28T12:21:19.632Z - success: ui-kit-preview-extra loaded
-2022-03-28T12:21:19.636Z - success: ui-kit-preview loaded
-2022-03-28T12:21:19.639Z - success: ui-kit loaded
-2022-03-28T12:21:19.645Z - success: vivo-runtime loaded
-2022-03-28T12:21:19.647Z - success: weapp-adapter loaded
-2022-03-28T12:21:19.649Z - success: xiaomi-adapter loaded
-2022-03-28T12:21:19.652Z - success: alipay-minigame loaded
-2022-03-28T12:21:19.685Z - success: assets loaded
-2022-03-28T12:21:19.688Z - success: builder loaded
-2022-03-28T12:21:19.943Z - success: cocos-services loaded
-2022-03-28T12:21:19.948Z - success: console loaded
-2022-03-28T12:21:19.976Z - success: fb-instant-games loaded
-2022-03-28T12:21:19.981Z - success: game-window loaded
-2022-03-28T12:21:19.982Z - success: google-instant-games loaded
-2022-03-28T12:21:19.988Z - success: hierarchy loaded
-2022-03-28T12:21:19.992Z - success: inspector loaded
-2022-03-28T12:21:19.994Z - success: keystore loaded
-2022-03-28T12:21:19.999Z - success: node-library loaded
-2022-03-28T12:21:20.000Z - success: package-asset loaded
-2022-03-28T12:21:20.001Z - success: preferences loaded
-2022-03-28T12:21:20.004Z - success: project-exporter loaded
-2022-03-28T12:21:20.008Z - success: project-importer loaded
-2022-03-28T12:21:20.011Z - success: project-settings loaded
-2022-03-28T12:21:20.016Z - success: scene loaded
-2022-03-28T12:21:20.018Z - success: simulator-debugger loaded
-2022-03-28T12:21:20.019Z - success: sprite-editor loaded
-2022-03-28T12:21:20.023Z - success: store loaded
-2022-03-28T12:21:20.031Z - success: timeline loaded
-2022-03-28T12:21:20.035Z - success: xiaomi-runtime loaded
-2022-03-28T12:21:21.105Z - normal: Loading packages
-2022-03-28T12:21:21.109Z - normal: Watching packages
-2022-03-28T12:21:21.192Z - normal: Run Application
-2022-03-28T12:21:22.052Z - info: Cocos Services load base data!
-2022-03-28T12:30:36.252Z - error: Can not find cc.Component in the script 19288HQ9fpNpYPPJdjgMhIH.
-    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
-    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2022-03-28T12:30:55.715Z - error: Can not find cc.Component in the script 19288HQ9fpNpYPPJdjgMhIH.
-    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
-    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2022-03-28T12:31:39.322Z - error: Can not find cc.Component in the script 19288HQ9fpNpYPPJdjgMhIH.
-    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
-    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2022-03-28T12:36:16.257Z - warn: Script attached to "BoardMap" is missing or invalid. Detailed information:
-Node path: "Canvas/MainGame/MainBoard/BoardMap"
-Script UUID: "79d7cfc4-494f-40fd-9b65-c626ef98461e"
-Class ID: "79d7c/ESU9A/ZtlxibvmEYe"
+2022-03-28T13:11:58.409Z - normal: Load ~/.CocosCreator/settings.json
+2022-03-28T13:11:58.460Z - normal: Initializing Asset Database
+2022-03-28T13:11:58.462Z - normal: checking language setting...
+2022-03-28T13:11:58.462Z - normal: Language: en
+2022-03-28T13:11:59.125Z - success: preview server running at http://localhost:7457
+2022-03-28T13:11:59.137Z - success: protocol editor-framework registered
+2022-03-28T13:11:59.137Z - success: protocol app registered
+2022-03-28T13:11:59.137Z - success: protocol theme registered
+2022-03-28T13:11:59.137Z - success: protocol packages registered
+2022-03-28T13:11:59.138Z - success: protocol uuid registerred
+2022-03-28T13:11:59.138Z - success: protocol db registerred
+2022-03-28T13:11:59.138Z - success: protocol thumbnail registerred
+2022-03-28T13:11:59.138Z - success: protocol unpack registerred
+2022-03-28T13:11:59.138Z - success: protocol disable-commonjs registerred
+2022-03-28T13:12:00.433Z - normal: connected!
+2022-03-28T13:12:00.434Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
+2022-03-28T13:12:00.435Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
+2022-03-28T13:12:00.772Z - normal: Initializing Cocos2d
+2022-03-28T13:12:01.411Z - normal: Initializing engine extends
+2022-03-28T13:12:01.437Z - success: alipay-adapter loaded
+2022-03-28T13:12:01.450Z - success: asset-db-debugger loaded
+2022-03-28T13:12:01.451Z - success: baidu-adapter loaded
+2022-03-28T13:12:01.452Z - success: color-picker loaded
+2022-03-28T13:12:01.569Z - success: fb-audience-network loaded
+2022-03-28T13:12:01.611Z - success: fb-live-stream loaded
+2022-03-28T13:12:01.614Z - success: google-play-instant loaded
+2022-03-28T13:12:01.620Z - success: huawei-runtime loaded
+2022-03-28T13:12:01.843Z - success: cpk-publish loaded
+2022-03-28T13:12:01.844Z - success: jsb-adapter loaded
+2022-03-28T13:12:01.850Z - success: oppo-runtime loaded
+2022-03-28T13:12:01.855Z - success: package-manager loaded
+2022-03-28T13:12:01.976Z - success: qqplay-adapter loaded
+2022-03-28T13:12:01.978Z - success: runtime-dev-tools loaded
+2022-03-28T13:12:02.008Z - success: sdkbox loaded
+2022-03-28T13:12:02.012Z - success: tester loaded
+2022-03-28T13:12:02.015Z - success: ui-kit-preview-extra loaded
+2022-03-28T13:12:02.021Z - success: ui-kit-preview loaded
+2022-03-28T13:12:02.025Z - success: ui-kit loaded
+2022-03-28T13:12:02.030Z - success: vivo-runtime loaded
+2022-03-28T13:12:02.037Z - success: weapp-adapter loaded
+2022-03-28T13:12:02.038Z - success: xiaomi-adapter loaded
+2022-03-28T13:12:02.040Z - success: alipay-minigame loaded
+2022-03-28T13:12:02.078Z - success: assets loaded
+2022-03-28T13:12:02.080Z - success: builder loaded
+2022-03-28T13:12:02.272Z - success: cocos-services loaded
+2022-03-28T13:12:02.278Z - success: console loaded
+2022-03-28T13:12:02.306Z - success: fb-instant-games loaded
+2022-03-28T13:12:02.309Z - success: game-window loaded
+2022-03-28T13:12:02.311Z - success: google-instant-games loaded
+2022-03-28T13:12:02.315Z - success: hierarchy loaded
+2022-03-28T13:12:02.319Z - success: inspector loaded
+2022-03-28T13:12:02.321Z - success: keystore loaded
+2022-03-28T13:12:02.325Z - success: node-library loaded
+2022-03-28T13:12:02.328Z - success: package-asset loaded
+2022-03-28T13:12:02.329Z - success: preferences loaded
+2022-03-28T13:12:02.332Z - success: project-exporter loaded
+2022-03-28T13:12:02.337Z - success: project-importer loaded
+2022-03-28T13:12:02.340Z - success: project-settings loaded
+2022-03-28T13:12:02.343Z - success: scene loaded
+2022-03-28T13:12:02.344Z - success: simulator-debugger loaded
+2022-03-28T13:12:02.346Z - success: sprite-editor loaded
+2022-03-28T13:12:02.351Z - success: store loaded
+2022-03-28T13:12:02.356Z - success: timeline loaded
+2022-03-28T13:12:02.360Z - success: xiaomi-runtime loaded
+2022-03-28T13:12:03.716Z - normal: Loading packages
+2022-03-28T13:12:03.755Z - normal: Watching packages
+2022-03-28T13:12:03.879Z - normal: Run Application
+2022-03-28T13:12:04.410Z - info: Cocos Services load base data!
+2022-03-28T13:12:08.052Z - warn: Script attached to "MainBoard" in scene "mainScene.fire" is missing or invalid. Detailed information:
+Node path: "Canvas/MainGame/MainBoard"
+Asset url: "db://assets/mainScene.fire"
+Script UUID: "0c854f2f-3bd2-4e39-ad55-804f92de2e8d"
+Class ID: "0c8548vO9JOOa1VgE+S3i6N"
 
-2022-03-28T12:38:46.102Z - error: Can not find cc.Component in the script d8ccfG6PGVKIJ7Rid3+x/w/.
-    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
-    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2022-03-28T12:38:51.874Z - error: Can not find cc.Component in the script d8ccfG6PGVKIJ7Rid3+x/w/.
-    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
-    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2022-03-28T12:50:06.426Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
+2022-03-28T13:12:08.053Z - warn: Script attached to "MainBoard" in scene "mainScene.fire" is missing or invalid. Detailed information:
+Node path: "Canvas/MainGame/MainBoard"
+Asset url: "db://assets/mainScene.fire"
+Script UUID: "46f575da-1352-4a30-a3d9-0496133236e7"
+Class ID: "46f57XaE1JKMKPZBJYTMjbn"
+
+2022-03-28T13:12:08.080Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
 Node path: "ChessPiece"
 Asset url: "db://assets/prefab/ChessPiecePrefab.prefab"
-Script UUID: "a7bdbe47-95fc-467d-9287-97005b335a0d"
-Class ID: "a7bdb5HlfxGfZKHlwBbM1oN"
+Script UUID: "6f25a990-a4ed-446d-92fd-683b25ad6e09"
+Class ID: "6f25amQpO1EbZL9aDslrW4J"
 
-2022-03-28T12:53:54.453Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
+2022-03-28T13:12:08.081Z - warn: Script attached to "PositionIndicatorPrefab" in prefab "PositionIndicatorPrefab.prefab" is missing or invalid. Detailed information:
+Node path: "PositionIndicatorPrefab"
+Asset url: "db://assets/prefab/PositionIndicatorPrefab.prefab"
+Script UUID: "9365a61d-d745-4b2d-82e7-998712b36b9e"
+Class ID: "9365aYd10VLLYLnmYcSs2ue"
+
+2022-03-28T13:12:52.080Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
 Node path: "ChessPiece"
 Asset url: "db://assets/prefab/ChessPiecePrefab.prefab"
-Script UUID: "a7bdbe47-95fc-467d-9287-97005b335a0d"
-Class ID: "a7bdb5HlfxGfZKHlwBbM1oN"
+Script UUID: "6f25a990-a4ed-446d-92fd-683b25ad6e09"
+Class ID: "6f25amQpO1EbZL9aDslrW4J"
 
-2022-03-28T12:54:01.145Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
+2022-03-28T13:12:56.738Z - warn: Script attached to "PositionIndicatorPrefab" in prefab "PositionIndicatorPrefab.prefab" is missing or invalid. Detailed information:
+Node path: "PositionIndicatorPrefab"
+Asset url: "db://assets/prefab/PositionIndicatorPrefab.prefab"
+Script UUID: "9365a61d-d745-4b2d-82e7-998712b36b9e"
+Class ID: "9365aYd10VLLYLnmYcSs2ue"
+
+2022-03-28T13:12:58.934Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
 Node path: "ChessPiece"
 Asset url: "db://assets/prefab/ChessPiecePrefab.prefab"
-Script UUID: "a7bdbe47-95fc-467d-9287-97005b335a0d"
-Class ID: "a7bdb5HlfxGfZKHlwBbM1oN"
+Script UUID: "6f25a990-a4ed-446d-92fd-683b25ad6e09"
+Class ID: "6f25amQpO1EbZL9aDslrW4J"
 
-2022-03-28T12:54:01.158Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
+2022-03-28T13:12:58.946Z - warn: Script attached to "ChessPiece" in prefab "ChessPiecePrefab.prefab" is missing or invalid. Detailed information:
 Node path: "ChessPiece"
 Asset url: "db://assets/prefab/ChessPiecePrefab.prefab"
-Script UUID: "a7bdbe47-95fc-467d-9287-97005b335a0d"
-Class ID: "a7bdb5HlfxGfZKHlwBbM1oN"
+Script UUID: "6f25a990-a4ed-446d-92fd-683b25ad6e09"
+Class ID: "6f25amQpO1EbZL9aDslrW4J"
 
-2022-03-28T12:54:19.924Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:13:11.606Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:13:13.315Z - warn: Script attached to "PositionIndicatorPrefab" in prefab "PositionIndicatorPrefab.prefab" is missing or invalid. Detailed information:
+Node path: "PositionIndicatorPrefab"
+Asset url: "db://assets/prefab/PositionIndicatorPrefab.prefab"
+Script UUID: "9365a61d-d745-4b2d-82e7-998712b36b9e"
+Class ID: "9365aYd10VLLYLnmYcSs2ue"
+
+2022-03-28T13:13:13.336Z - warn: Script attached to "PositionIndicatorPrefab" in prefab "PositionIndicatorPrefab.prefab" is missing or invalid. Detailed information:
+Node path: "PositionIndicatorPrefab"
+Asset url: "db://assets/prefab/PositionIndicatorPrefab.prefab"
+Script UUID: "9365a61d-d745-4b2d-82e7-998712b36b9e"
+Class ID: "9365aYd10VLLYLnmYcSs2ue"
+
+2022-03-28T13:13:19.672Z - info: Only the prefab node "PositionIndicatorPrefab" and its child nodes are saved.
+2022-03-28T13:30:39.604Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:30:46.640Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:31:56.633Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:32:18.689Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:32:34.214Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:35:43.936Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:39:51.319Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:40:54.066Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:42:05.975Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:42:59.007Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:43:34.987Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:44:10.003Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
+2022-03-28T13:44:29.856Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.

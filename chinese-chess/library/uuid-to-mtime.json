@@ -420,24 +420,14 @@
     "relativePath": "model/primitives.fbx"
   },
   "eec8f051-f4ac-4551-aed2-317c1ba5e860": {
-    "asset": 1648399029872,
+    "asset": 1648472232811,
     "meta": 1647751334077,
     "relativePath": "core"
   },
   "85cb43f7-9399-4fa3-89e7-51bdfbade977": {
-    "asset": 1648398961907,
+    "asset": 1648472232814,
     "meta": 1647751646338,
     "relativePath": "prefab"
-  },
-  "ad3e358a-325d-41d3-9c85-cca00c5f3cdd": {
-    "asset": 1648472059932,
-    "meta": 1648472059943,
-    "relativePath": "prefab/ChessPiecePrefab.prefab"
-  },
-  "3af24991-128e-4738-b8e8-c854a0d3411a": {
-    "asset": 1648472127885,
-    "meta": 1648472127895,
-    "relativePath": "mainScene.fire"
   },
   "330d8511-4b72-4287-a1ab-eda72518330b": {
     "asset": 1648381213689,
@@ -449,79 +439,89 @@
     "meta": 1648381213724,
     "relativePath": "sprite/red_dot.png"
   },
-  "134833b2-92e5-45c2-bcd4-a0a90db1fad5": {
-    "asset": 1648397103326,
-    "meta": 1648397103337,
-    "relativePath": "test/test.fire"
-  },
-  "0ef16fb4-0c14-4338-bbca-ed51e2566e7f": {
-    "asset": 1648396006650,
-    "meta": 1648395995527,
-    "relativePath": "test"
-  },
-  "4668f267-5617-479b-9074-a7b0bd0268df": {
-    "asset": 1648396471730,
-    "meta": 1648396004257,
-    "relativePath": "test/script"
-  },
-  "cc2351ac-f73b-4a67-b448-7ba2b3446cb4": {
-    "asset": 1648396014579,
-    "meta": 1648396014618,
-    "relativePath": "test/script/NewScript.js"
-  },
-  "c78b6e6c-1629-42b1-8452-b6e4e19c0842": {
-    "asset": 1648396471710,
-    "meta": 1648396471730,
-    "relativePath": "test/script/NewScript.ts"
-  },
-  "6d23edb1-5c45-46c5-b8ca-c403ad330889": {
-    "asset": 1648397087947,
-    "meta": 1648397089050,
-    "relativePath": "test/script/positionHolderComponent.ts"
-  },
-  "c7462e8e-fec1-4edf-915e-078a8f48d9d4": {
-    "asset": 1648399174132,
-    "meta": 1648399174139,
-    "relativePath": "prefab/PositionIndicatorPrefab.prefab"
-  },
-  "be8316ab-2cc8-4f6f-8287-fcaafeeed835": {
-    "asset": 1648399954159,
-    "meta": 1648399006667,
-    "relativePath": "core/PrefabScript"
-  },
-  "d8ccf1ba-3c65-4a20-9ed1-89ddfec7fc3f": {
-    "asset": 1648471148355,
-    "meta": 1648471149244,
-    "relativePath": "core/Config.ts"
-  },
-  "630fcdf3-fffe-4cc2-9bd4-6d50f861d7f2": {
-    "asset": 1648471139875,
-    "meta": 1648471149244,
-    "relativePath": "core/Director.ts"
-  },
   "5175a789-bddb-44e3-ae70-fa3970646f42": {
-    "asset": 1648471238022,
-    "meta": 1648471238023,
+    "asset": 1648472232810,
+    "meta": 1648472232809,
     "relativePath": "core/Board"
   },
-  "0c854f2f-3bd2-4e39-ad55-804f92de2e8d": {
-    "asset": 1648471774902,
-    "meta": 1648471792680,
-    "relativePath": "core/Board/BoardManager.ts"
+  "d8ccf1ba-3c65-4a20-9ed1-89ddfec7fc3f": {
+    "asset": 1648472537276,
+    "meta": 1648473123305,
+    "relativePath": "core/Config.ts"
   },
-  "46f575da-1352-4a30-a3d9-0496133236e7": {
-    "asset": 1648471415786,
-    "meta": 1648471792691,
-    "relativePath": "core/Board/BoardMapComponent.ts"
+  "be8316ab-2cc8-4f6f-8287-fcaafeeed835": {
+    "asset": 1648472232812,
+    "meta": 1648472232811,
+    "relativePath": "core/PrefabScript"
   },
-  "9365a61d-d745-4b2d-82e7-998712b36b9e": {
-    "asset": 1648471643315,
-    "meta": 1648471792693,
+  "3af24991-128e-4738-b8e8-c854a0d3411a": {
+    "asset": 1648474621302,
+    "meta": 1648474621316,
+    "relativePath": "mainScene.fire"
+  },
+  "ad3e358a-325d-41d3-9c85-cca00c5f3cdd": {
+    "asset": 1648475069859,
+    "meta": 1648475069863,
+    "relativePath": "prefab/ChessPiecePrefab.prefab"
+  },
+  "0ef16fb4-0c14-4338-bbca-ed51e2566e7f": {
+    "asset": 1648472232816,
+    "meta": 1648472232814,
+    "relativePath": "test"
+  },
+  "c7462e8e-fec1-4edf-915e-078a8f48d9d4": {
+    "asset": 1648473199676,
+    "meta": 1648473199680,
+    "relativePath": "prefab/PositionIndicatorPrefab.prefab"
+  },
+  "f2f7c54a-474f-409f-87eb-77830d744b11": {
+    "asset": 1648472232812,
+    "meta": 1648473123321,
     "relativePath": "core/PrefabScript/PositionIndicatorComponent.ts"
   },
-  "6f25a990-a4ed-446d-92fd-683b25ad6e09": {
-    "asset": 1648472119681,
-    "meta": 1648472122226,
+  "548f3878-ceeb-4211-a7f4-dc1b7e40704c": {
+    "asset": 1648472232816,
+    "meta": 1648472244132,
+    "relativePath": "test/script"
+  },
+  "1e128f03-db59-46bd-9a03-cf16f7997795": {
+    "asset": 1648472232815,
+    "meta": 1648473123480,
+    "relativePath": "test/script/NewScript.js"
+  },
+  "4ca1d5fc-d27d-4411-ad5c-c08085ba42e6": {
+    "asset": 1648472232815,
+    "meta": 1648473123501,
+    "relativePath": "test/script/NewScript.ts"
+  },
+  "7099f147-46b9-4073-9861-456afab90bec": {
+    "asset": 1648472232816,
+    "meta": 1648473123502,
+    "relativePath": "test/script/positionHolderComponent.ts"
+  },
+  "0d90c59b-6053-43a3-b26b-5e5cba5f76b1": {
+    "asset": 1648472232816,
+    "meta": 1648473123505,
+    "relativePath": "test/test.fire"
+  },
+  "630fcdf3-fffe-4cc2-9bd4-6d50f861d7f2": {
+    "asset": 1648473335097,
+    "meta": 1648473335965,
+    "relativePath": "core/Director.ts"
+  },
+  "af1245f9-7635-44fe-8457-03d3dbe3907b": {
+    "asset": 1648473927884,
+    "meta": 1648473928995,
+    "relativePath": "core/Board/BoardManager.ts"
+  },
+  "5da74014-7cd1-4cb8-855d-49ab396d656f": {
+    "asset": 1648474633098,
+    "meta": 1648474634119,
+    "relativePath": "core/Board/BoardMapComponent.ts"
+  },
+  "fb54374f-f98d-48a6-bbc5-e26593040baa": {
+    "asset": 1648475067672,
+    "meta": 1648475068719,
     "relativePath": "core/PrefabScript/ChessPieceComponent.ts"
   }
 }

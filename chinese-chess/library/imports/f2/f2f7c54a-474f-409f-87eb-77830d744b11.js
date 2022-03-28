@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, '9365aYd10VLLYLnmYcSs2ue', 'PositionIndicatorComponent');
+cc._RF.push(module, 'f2f7cVKR09An4frd4MNdEsR', 'PositionIndicatorComponent');
 // core/PrefabScript/PositionIndicatorComponent.ts
 
 Object.defineProperty(exports, "__esModule", { value: true });

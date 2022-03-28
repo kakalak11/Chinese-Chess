@@ -1,5 +1,5 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/core/Board/BoardManager.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '0c8548vO9JOOa1VgE+S3i6N', 'BoardManager', __filename);
+cc._RF.push(module, 'af124X5djVE/oRXA9Pb45B7', 'BoardManager', __filename);
 // core/Board/BoardManager.ts
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -49,7 +49,8 @@ var BoardManager = /** @class */ (function (_super) {
             var chessPiece = cc.instantiate(this.chessPiecePrefab);
             chessPiece.parent = this.topSideHolder;
             chessPiece.sprite.color = this.blueColor;
-            chessPiece.rotation = 180;
+            // chessPiece.rotation = 180;
+            chessPiece.scaleY = -1;
             chessPiece.init(CHESS_INFO[chessName], chessName, CHESS_SIZE);
             var position = void 0;
             if (chessIndex > 5) {
@@ -127,11 +128,20 @@ var BoardManager = /** @class */ (function (_super) {
     };
     ;
     BoardManager.prototype.onClickPosition = function (event) {
+        var _this = this;
         if (!event && !event.position)
             return;
         if (!this.selectedChess || this.targetChess)
             return;
+        var TIME_TWEEN_MOVE = this.node.config.TIME_TWEEN_MOVE;
         this.selectedPosition = event.position;
+        this._moveTween = cc.tween(this.selectedChess)
+            .to(TIME_TWEEN_MOVE, { position: this.selectedPosition })
+            .call(function () {
+            _this._moveTween = null;
+            _this.selectedChess.unselect();
+            _this.selectedChess.onMouseLeave();
+        });
     };
     __decorate([
         property(cc.Prefab)

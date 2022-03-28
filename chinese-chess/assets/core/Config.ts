@@ -16,6 +16,7 @@ export default class Config extends cc.Component {
             INIT_POSITION: cc.v2(0, -270),
             TABLE_FORMAT_VERTICAL: 9,
             TABLE_FORMAT_HORIZONTAL: 10,
+            TIME_TWEEN_MOVE: 0.5,
             CHESS_LAYOUT: ['K', 'G', 'E', 'H', 'R', 'C', 'G', 'E', 'H', 'R', 'C', 'P', 'P', 'P', 'P', 'P'],
             CHESS_INFO: {
                 'K': {

@@ -15,7 +15,7 @@ var Director = /** @class */ (function (_super) {
     };
     ;
     Director.prototype.start = function () {
-        this.mainBoard.emit('INIT_BOARD');
+        this.mainBoard.emit('INIT');
     };
     ;
     __decorate([

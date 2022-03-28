@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, 'cc235Gs9ztKZ7RIe6KzRGy0', 'NewScript');
+cc._RF.push(module, '1e1288D21lGvZoDzxb3mXeV', 'NewScript');
 // test/script/NewScript.js
 
 "use strict";

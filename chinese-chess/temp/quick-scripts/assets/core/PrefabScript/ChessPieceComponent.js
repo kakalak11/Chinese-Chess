@@ -1,5 +1,5 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/core/PrefabScript/ChessPieceComponent.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '6f25amQpO1EbZL9aDslrW4J', 'ChessPieceComponent', __filename);
+cc._RF.push(module, 'fb543dP+Y1IprvF4mWTBAuq', 'ChessPieceComponent', __filename);
 // core/PrefabScript/ChessPieceComponent.ts
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -19,7 +19,10 @@ var ChessPieceComponent = /** @class */ (function (_super) {
     }
     ChessPieceComponent.prototype.onLoad = function () {
         this.node.init = this.init.bind(this);
+        this.node.unselect = this.unselect.bind(this);
+        this.node.onMouseLeave = this.onMouseLeave.bind(this);
         this.node.sprite = this.sprite.node;
+        this.node.isSelected = this.isSelected;
         if (this.node) {
             this.node.on(cc.Node.EventType.MOUSE_ENTER, this.onMouseEnter, this);
             this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.onMouseLeave, this);
@@ -87,6 +90,9 @@ var ChessPieceComponent = /** @class */ (function (_super) {
         this.node.dispatchEvent(selectEvent);
     };
     ;
+    ChessPieceComponent.prototype.unselect = function () {
+        this.isSelected = false;
+    };
     ChessPieceComponent.prototype.reset = function () {
         this.isSelected = null;
         this._tweenUnselect.start();

@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, '46f57XaE1JKMKPZBJYTMjbn', 'BoardMapComponent');
+cc._RF.push(module, '5da74AUfNFMuIVdSas5bWVv', 'BoardMapComponent');
 // core/Board/BoardMapComponent.ts
 
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -18,20 +18,15 @@ var BoardMapComponent = /** @class */ (function (_super) {
     BoardMapComponent.prototype.init = function () {
         var _a = this.node.config, BOARD_FORMAT = _a.BOARD_FORMAT, BORDER_LEFT_BOARD = _a.BORDER_LEFT_BOARD, BORDER_TOP_BOARD = _a.BORDER_TOP_BOARD, STEP = _a.STEP;
         var BOARD_LENGTH_COLUMN = BOARD_FORMAT.length;
-        var BOARD_LENGTH_ROW = BOARD_FORMAT.length[0];
-        var startOffsetX = BORDER_LEFT_BOARD;
-        var startOffsetY = BORDER_TOP_BOARD;
-        this.y = 0;
-        for (var i = 0; i < BOARD_LENGTH_COLUMN; i++) {
-            var xStep = (i % BOARD_LENGTH_COLUMN) * STEP;
-            if (xStep === -BORDER_LEFT_BOARD) {
-                this.y++;
+        var BOARD_LENGTH_ROW = BOARD_FORMAT[0];
+        for (var col = 0; col < BOARD_LENGTH_COLUMN; col++) {
+            for (var row = 0; row < BOARD_LENGTH_ROW; row++) {
+                var xPos = BORDER_LEFT_BOARD + col * STEP;
+                var yPos = BORDER_TOP_BOARD - row * STEP;
+                var positionIndicatorNode = cc.instantiate(this.positionIndicatorPrefab);
+                positionIndicatorNode.parent = this.node;
+                positionIndicatorNode.setPosition(cc.v2(xPos, yPos));
             }
-            var yStep = this.y * STEP;
-            var position = new cc.Vec2(xStep, yStep);
-            var positionIndicatorNode = cc.instantiate(this.positionIndicatorPrefab);
-            positionIndicatorNode.parent = this.node;
-            positionIndicatorNode.setPosition(position);
         }
     };
     ;

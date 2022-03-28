@@ -1,5 +1,5 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/core/PrefabScript/PositionIndicatorComponent.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '9365aYd10VLLYLnmYcSs2ue', 'PositionIndicatorComponent', __filename);
+cc._RF.push(module, 'f2f7cVKR09An4frd4MNdEsR', 'PositionIndicatorComponent', __filename);
 // core/PrefabScript/PositionIndicatorComponent.ts
 
 Object.defineProperty(exports, "__esModule", { value: true });
