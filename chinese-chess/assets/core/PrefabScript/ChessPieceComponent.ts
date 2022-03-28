@@ -14,12 +14,6 @@ export default class ChessPieceComponent extends cc.Component {
     @property(cc.Label)
     label: cc.Label = null;
 
-    // @property(cc.Node)
-    // overlay: cc.Node = null;
-
-    // @property(cc.Node)
-    // eventNode: cc.Node = null;
-
     isSelected: boolean;
     _tweenUnselect: cc.Tween;
     _tweenSelect: cc.Tween;
