@@ -1,393 +1,68 @@
-2022-03-27T10:20:39.914Z - normal: Load ~/.CocosCreator/settings.json
-2022-03-27T10:20:39.960Z - normal: Initializing Asset Database
-2022-03-27T10:20:39.963Z - normal: checking language setting...
-2022-03-27T10:20:39.963Z - normal: Language: en
-2022-03-27T10:20:40.627Z - success: preview server running at http://localhost:7456
-2022-03-27T10:20:40.637Z - success: protocol editor-framework registered
-2022-03-27T10:20:40.638Z - success: protocol app registered
-2022-03-27T10:20:40.638Z - success: protocol theme registered
-2022-03-27T10:20:40.638Z - success: protocol packages registered
-2022-03-27T10:20:40.638Z - success: protocol uuid registerred
-2022-03-27T10:20:40.638Z - success: protocol db registerred
-2022-03-27T10:20:40.638Z - success: protocol thumbnail registerred
-2022-03-27T10:20:40.638Z - success: protocol unpack registerred
-2022-03-27T10:20:40.638Z - success: protocol disable-commonjs registerred
-2022-03-27T10:20:41.209Z - normal: connected!
-2022-03-27T10:20:41.210Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
-2022-03-27T10:20:41.212Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
-2022-03-27T10:20:41.566Z - normal: Initializing Cocos2d
-2022-03-27T10:20:42.202Z - normal: Initializing engine extends
-2022-03-27T10:20:42.235Z - success: alipay-adapter loaded
-2022-03-27T10:20:42.243Z - success: asset-db-debugger loaded
-2022-03-27T10:20:42.247Z - success: baidu-adapter loaded
-2022-03-27T10:20:42.252Z - success: color-picker loaded
-2022-03-27T10:20:42.399Z - success: fb-audience-network loaded
-2022-03-27T10:20:42.452Z - success: fb-live-stream loaded
-2022-03-27T10:20:42.455Z - success: google-play-instant loaded
-2022-03-27T10:20:42.459Z - success: huawei-runtime loaded
-2022-03-27T10:20:42.669Z - success: cpk-publish loaded
-2022-03-27T10:20:42.671Z - success: jsb-adapter loaded
-2022-03-27T10:20:42.677Z - success: oppo-runtime loaded
-2022-03-27T10:20:42.683Z - success: package-manager loaded
-2022-03-27T10:20:42.816Z - success: qqplay-adapter loaded
-2022-03-27T10:20:42.819Z - success: runtime-dev-tools loaded
-2022-03-27T10:20:42.840Z - success: sdkbox loaded
-2022-03-27T10:20:42.845Z - success: tester loaded
-2022-03-27T10:20:42.850Z - success: ui-kit-preview-extra loaded
-2022-03-27T10:20:42.854Z - success: ui-kit-preview loaded
-2022-03-27T10:20:42.856Z - success: ui-kit loaded
-2022-03-27T10:20:42.863Z - success: vivo-runtime loaded
-2022-03-27T10:20:42.864Z - success: weapp-adapter loaded
-2022-03-27T10:20:42.866Z - success: xiaomi-adapter loaded
-2022-03-27T10:20:42.870Z - success: alipay-minigame loaded
-2022-03-27T10:20:42.907Z - success: assets loaded
-2022-03-27T10:20:42.910Z - success: builder loaded
-2022-03-27T10:20:43.170Z - success: cocos-services loaded
-2022-03-27T10:20:43.175Z - success: console loaded
-2022-03-27T10:20:43.202Z - success: fb-instant-games loaded
-2022-03-27T10:20:43.206Z - success: game-window loaded
-2022-03-27T10:20:43.207Z - success: google-instant-games loaded
-2022-03-27T10:20:43.210Z - success: hierarchy loaded
-2022-03-27T10:20:43.214Z - success: inspector loaded
-2022-03-27T10:20:43.216Z - success: keystore loaded
-2022-03-27T10:20:43.220Z - success: node-library loaded
-2022-03-27T10:20:43.221Z - success: package-asset loaded
-2022-03-27T10:20:43.222Z - success: preferences loaded
-2022-03-27T10:20:43.225Z - success: project-exporter loaded
-2022-03-27T10:20:43.229Z - success: project-importer loaded
-2022-03-27T10:20:43.231Z - success: project-settings loaded
-2022-03-27T10:20:43.237Z - success: scene loaded
-2022-03-27T10:20:43.238Z - success: simulator-debugger loaded
-2022-03-27T10:20:43.239Z - success: sprite-editor loaded
-2022-03-27T10:20:43.243Z - success: store loaded
-2022-03-27T10:20:43.249Z - success: timeline loaded
-2022-03-27T10:20:43.252Z - success: xiaomi-runtime loaded
-2022-03-27T10:20:43.952Z - normal: Loading packages
-2022-03-27T10:20:43.958Z - normal: Watching packages
-2022-03-27T10:20:44.036Z - normal: Run Application
-2022-03-27T10:20:48.965Z - info: Cocos Services load base data!
-2022-03-27T10:40:02.558Z - info: Only the prefab node "ChessPiece" and its child nodes are saved.
-2022-03-27T11:42:45.916Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.918Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.918Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.918Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.918Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.919Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.919Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.919Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.919Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.919Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.919Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.919Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.919Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.920Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.920Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.920Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.920Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.920Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.920Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.920Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.921Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.921Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.921Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.921Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.921Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.921Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T11:42:45.921Z - error: TypeError: Cannot read property 'target' of null
-    at HTMLElement.e.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6524)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement.t [as _onConfirm] (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:4611)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._emitConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:6276)
-    at HTMLElement.t.addEventListener (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/prop.js:1:5467)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/num-input.js:1:7258)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:906)
-    at Object.e.clear (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:960)
-2022-03-27T15:53:21.956Z - warn: Please specifiy a default value for "NewClass" property at its declaration:
- 
-// Before:
-@property(...)
-value; 
-// After:
-@property(...)
-value = 0 positionHolder
-2022-03-27T16:10:04.415Z - error: Failed to apply "PositionIndicatorPrefab" because the prefab asset is missing, please save the prefab to a new asset by dragging and drop the node from Node Tree into Assets.
-    at Object.applyPrefab (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:5296)
-    at HTMLElement.apply-prefab (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:2732)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2022-03-27T16:11:33.682Z - warn: The Asset used by node "PositionIndicatorPrefab" is missing. Detailed information:
-Node path: "PositionIndicatorPrefab"
-Missing uuid: "0a295ed3-d901-4919-9fac-531ce1b42103"
-
-2022-03-27T16:39:34.125Z - info: Only the prefab node "PositionIndicatorPrefab" and its child nodes are saved.
-2022-03-27T16:56:36.588Z - error: Can not find cc.Component in the script 19288HQ9fpNpYPPJdjgMhIH.
-    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/scene.js:1:6036)
-    at HTMLElement.add-component (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene-operation.js:1:1171)
-    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
-    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2921)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
+2022-03-28T09:01:37.769Z - normal: Load ~/.CocosCreator/settings.json
+2022-03-28T09:01:37.822Z - normal: Initializing Asset Database
+2022-03-28T09:01:37.824Z - normal: checking language setting...
+2022-03-28T09:01:37.824Z - normal: Language: en
+2022-03-28T09:01:38.489Z - success: preview server running at http://localhost:7457
+2022-03-28T09:01:38.502Z - success: protocol editor-framework registered
+2022-03-28T09:01:38.502Z - success: protocol app registered
+2022-03-28T09:01:38.502Z - success: protocol theme registered
+2022-03-28T09:01:38.502Z - success: protocol packages registered
+2022-03-28T09:01:38.502Z - success: protocol uuid registerred
+2022-03-28T09:01:38.502Z - success: protocol db registerred
+2022-03-28T09:01:38.503Z - success: protocol thumbnail registerred
+2022-03-28T09:01:38.503Z - success: protocol unpack registerred
+2022-03-28T09:01:38.503Z - success: protocol disable-commonjs registerred
+2022-03-28T09:01:41.492Z - normal: failed to connect login server due to request timeout
+2022-03-28T09:01:41.493Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
+2022-03-28T09:01:41.494Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/Chinese Chess/Chinese-Chess/chinese-chess
+2022-03-28T09:01:41.803Z - normal: Initializing Cocos2d
+2022-03-28T09:01:42.411Z - normal: Initializing engine extends
+2022-03-28T09:01:42.435Z - success: alipay-adapter loaded
+2022-03-28T09:01:42.446Z - success: asset-db-debugger loaded
+2022-03-28T09:01:42.452Z - success: baidu-adapter loaded
+2022-03-28T09:01:42.453Z - success: color-picker loaded
+2022-03-28T09:01:42.562Z - success: fb-audience-network loaded
+2022-03-28T09:01:42.603Z - success: fb-live-stream loaded
+2022-03-28T09:01:42.605Z - success: google-play-instant loaded
+2022-03-28T09:01:42.610Z - success: huawei-runtime loaded
+2022-03-28T09:01:42.808Z - success: cpk-publish loaded
+2022-03-28T09:01:42.809Z - success: jsb-adapter loaded
+2022-03-28T09:01:42.813Z - success: oppo-runtime loaded
+2022-03-28T09:01:42.817Z - success: package-manager loaded
+2022-03-28T09:01:42.922Z - success: qqplay-adapter loaded
+2022-03-28T09:01:42.924Z - success: runtime-dev-tools loaded
+2022-03-28T09:01:42.950Z - success: sdkbox loaded
+2022-03-28T09:01:42.955Z - success: tester loaded
+2022-03-28T09:01:42.958Z - success: ui-kit-preview-extra loaded
+2022-03-28T09:01:42.961Z - success: ui-kit-preview loaded
+2022-03-28T09:01:42.964Z - success: ui-kit loaded
+2022-03-28T09:01:42.970Z - success: vivo-runtime loaded
+2022-03-28T09:01:42.976Z - success: weapp-adapter loaded
+2022-03-28T09:01:42.977Z - success: xiaomi-adapter loaded
+2022-03-28T09:01:42.979Z - success: alipay-minigame loaded
+2022-03-28T09:01:43.017Z - success: assets loaded
+2022-03-28T09:01:43.021Z - success: builder loaded
+2022-03-28T09:01:43.256Z - success: cocos-services loaded
+2022-03-28T09:01:43.261Z - success: console loaded
+2022-03-28T09:01:43.294Z - success: fb-instant-games loaded
+2022-03-28T09:01:43.298Z - success: game-window loaded
+2022-03-28T09:01:43.299Z - success: google-instant-games loaded
+2022-03-28T09:01:43.304Z - success: hierarchy loaded
+2022-03-28T09:01:43.308Z - success: inspector loaded
+2022-03-28T09:01:43.310Z - success: keystore loaded
+2022-03-28T09:01:43.314Z - success: node-library loaded
+2022-03-28T09:01:43.316Z - success: package-asset loaded
+2022-03-28T09:01:43.317Z - success: preferences loaded
+2022-03-28T09:01:43.320Z - success: project-exporter loaded
+2022-03-28T09:01:43.328Z - success: project-importer loaded
+2022-03-28T09:01:43.332Z - success: project-settings loaded
+2022-03-28T09:01:43.337Z - success: scene loaded
+2022-03-28T09:01:43.338Z - success: simulator-debugger loaded
+2022-03-28T09:01:43.339Z - success: sprite-editor loaded
+2022-03-28T09:01:43.344Z - success: store loaded
+2022-03-28T09:01:43.353Z - success: timeline loaded
+2022-03-28T09:01:43.358Z - success: xiaomi-runtime loaded
+2022-03-28T09:01:45.633Z - info: Cocos Services load base data!
+2022-03-28T09:01:48.354Z - normal: Loading packages
+2022-03-28T09:01:48.359Z - normal: Watching packages
+2022-03-28T09:01:48.445Z - normal: Run Application

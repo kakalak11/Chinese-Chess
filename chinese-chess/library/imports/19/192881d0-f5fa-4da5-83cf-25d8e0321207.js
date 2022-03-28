@@ -20,6 +20,7 @@ var NewClass = /** @class */ (function (_super) {
         this.redColor = cc.Color.RED;
         this.blueColor = cc.Color.BLUE;
     };
+    ;
     NewClass.prototype.initBoard = function () {
         var _a = this.node.config, CHESS_LAYOUT = _a.CHESS_LAYOUT, CHESS_INFO = _a.CHESS_INFO, CHESS_SIZE = _a.CHESS_SIZE;
         this.chessPieces = [];
@@ -60,6 +61,13 @@ var NewClass = /** @class */ (function (_super) {
             this.chessPieces.push(chessPiece);
         }
     };
+    ;
+    NewClass.prototype.onChessSelect = function () {
+    };
+    ;
+    NewClass.prototype.onChessUnselect = function () {
+    };
+    ;
     __decorate([
         property(cc.Prefab)
     ], NewClass.prototype, "chessPiecePrefab", void 0);
