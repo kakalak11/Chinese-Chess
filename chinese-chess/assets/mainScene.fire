@@ -153,7 +153,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 554.2562584220408
+      "z": 485.8402515230701
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -226,9 +226,6 @@
     "_active": true,
     "_level": 2,
     "_components": [
-      {
-        "__id__": 319
-      },
       {
         "__id__": 320
       }
@@ -14773,6 +14770,9 @@
       },
       {
         "__id__": 318
+      },
+      {
+        "__id__": 319
       }
     ],
     "_prefab": null,
@@ -14989,7 +14989,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "possibleMoveHolder",
+    "_name": "BoardMap",
     "_objFlags": 0,
     "_parent": {
       "__id__": 312
@@ -15042,7 +15042,17 @@
     "_id": "64C6m76llNaoO7z8oTTyn3"
   },
   {
-    "__type__": "8b33bPy985EAJmNccfDcqbb",
+    "__type__": "d8ccfG6PGVKIJ7Rid3+x/w/",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 312
+    },
+    "_enabled": true,
+    "_id": "c6bLdo7v1I6IMAAL6ewsSf"
+  },
+  {
+    "__type__": "0c8548vO9JOOa1VgE+S3i6N",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -15058,20 +15068,23 @@
     "bottomSideHolder": {
       "__id__": 315
     },
-    "_id": "5aDYf/6JdCfa7pJn5EkUbN"
+    "_id": "0eL1ckbiVFoLVOgOHfqv6W"
   },
   {
-    "__type__": "79d7c/ESU9A/ZtlxibvmEYe",
+    "__type__": "46f57XaE1JKMKPZBJYTMjbn",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 312
     },
     "_enabled": true,
-    "_id": "92ACa8o8pKOqA2Q5s+RwRQ"
+    "positionIndicatorPrefab": {
+      "__uuid__": "c7462e8e-fec1-4edf-915e-078a8f48d9d4"
+    },
+    "_id": "54IftBGIRMYpDOTvD+MUSz"
   },
   {
-    "__type__": "5534aw6vLZP/LuqfFfoYR7s",
+    "__type__": "630fc3z//5MwpvUbVD4Ydfy",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -15081,17 +15094,7 @@
     "mainBoard": {
       "__id__": 312
     },
-    "_id": "83qM30RHNHX6fq2HDicmel"
-  },
-  {
-    "__type__": "69ea6VY34FFHaGDOF6eTSJO",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 5
-    },
-    "_enabled": true,
-    "_id": "64TDtqEORNIYSzlP430kbt"
+    "_id": "56IUUiM3dOdZrVyOAiJTCu"
   },
   {
     "__type__": "cc.Canvas",

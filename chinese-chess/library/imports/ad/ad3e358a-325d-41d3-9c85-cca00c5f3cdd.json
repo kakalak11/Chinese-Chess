@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "ChessPiece",
+    "_name": "ChessPiecePrefab",
     "_objFlags": 0,
     "_native": "",
     "data": {
@@ -281,7 +281,7 @@
     "sync": false
   },
   {
-    "__type__": "a7bdb5HlfxGfZKHlwBbM1oN",
+    "__type__": "6f25amQpO1EbZL9aDslrW4J",
     "_name": "",
     "_objFlags": 0,
     "node": {
