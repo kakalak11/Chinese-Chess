@@ -10,12 +10,14 @@ var PositionIndicatorComponent = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     PositionIndicatorComponent.prototype.onLoad = function () {
+    };
+    ;
+    PositionIndicatorComponent.prototype.onEnable = function () {
         this.node.on('mousedown', this.onMouseDown, this);
         this.node.on('mouseup', this.onMouseUp, this);
     };
-    ;
     PositionIndicatorComponent.prototype.onMouseDown = function () {
-        var eventClick = new cc.Event.EventCustom('CLICK', true);
+        var eventClick = new cc.Event.EventCustom('CLICK_POSITION', true);
         eventClick['position'] = this.node.getPosition();
         this.node.dispatchEvent(eventClick);
     };
@@ -23,6 +25,10 @@ var PositionIndicatorComponent = /** @class */ (function (_super) {
     PositionIndicatorComponent.prototype.onMouseUp = function () {
     };
     ;
+    PositionIndicatorComponent.prototype.onDisable = function () {
+        this.node.off('mousedown', this.onMouseDown, this);
+        this.node.off('mouseup', this.onMouseUp, this);
+    };
     PositionIndicatorComponent = __decorate([
         ccclass
     ], PositionIndicatorComponent);

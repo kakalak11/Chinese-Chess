@@ -131,10 +131,15 @@ var BoardManager = /** @class */ (function (_super) {
         var _this = this;
         if (!event && !event.position)
             return;
+        event.stopPropagation();
         if (!this.selectedChess || this.targetChess)
             return;
         var TIME_TWEEN_MOVE = this.node.config.TIME_TWEEN_MOVE;
         this.selectedPosition = event.position;
+        if (this.selectedPosition === this.selectedChess.getPosition()) {
+            this.resetMove();
+            return;
+        }
         this._moveTween = cc.tween(this.selectedChess)
             .to(TIME_TWEEN_MOVE, { position: this.selectedPosition })
             .call(function () {
@@ -142,6 +147,11 @@ var BoardManager = /** @class */ (function (_super) {
             _this.selectedChess.unselect();
             _this.selectedChess.onMouseLeave();
         });
+    };
+    BoardManager.prototype.resetMove = function () {
+        this.selectedChess = null;
+        this.targetChess = null;
+        this.selectedPosition = null;
     };
     __decorate([
         property(cc.Prefab)

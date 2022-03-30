@@ -135,11 +135,17 @@ export default class BoardManager extends cc.Component {
 
     protected onClickPosition(event): void {
         if (!event && !event.position) return;
+        event.stopPropagation();
         if (!this.selectedChess || this.targetChess) return;
 
         const { TIME_TWEEN_MOVE } = (this.node as any).config;
 
         this.selectedPosition = event.position;
+
+        if (this.selectedPosition === this.selectedChess.getPosition()) {
+            this.resetMove();
+            return;
+        }
 
         this._moveTween = cc.tween(this.selectedChess)
             .to(TIME_TWEEN_MOVE, { position: this.selectedPosition })
@@ -148,5 +154,11 @@ export default class BoardManager extends cc.Component {
                 (this.selectedChess as any).unselect();
                 (this.selectedChess as any).onMouseLeave();
             })
+    }
+
+    resetMove() {
+        this.selectedChess = null;
+        this.targetChess = null;
+        this.selectedPosition = null;
     }
 };

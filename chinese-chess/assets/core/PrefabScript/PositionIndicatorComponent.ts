@@ -4,12 +4,16 @@ const { ccclass, property } = cc._decorator;
 export default class PositionIndicatorComponent extends cc.Component {
 
     protected onLoad(): void {
-        this.node.on('mousedown', this.onMouseDown, this);
-        this.node.on('mouseup', this.onMouseUp, this);
+
     };
 
+    protected onEnable(): void {
+        this.node.on('mousedown', this.onMouseDown, this);
+        this.node.on('mouseup', this.onMouseUp, this);
+    }
+
     protected onMouseDown(): void {
-        const eventClick = new cc.Event.EventCustom('CLICK', true);
+        const eventClick = new cc.Event.EventCustom('CLICK_POSITION', true);
 
         eventClick['position'] = this.node.getPosition();
 
@@ -19,4 +23,9 @@ export default class PositionIndicatorComponent extends cc.Component {
     protected onMouseUp(): void {
 
     };
+
+    protected onDisable(): void {
+        this.node.off('mousedown', this.onMouseDown, this);
+        this.node.off('mouseup', this.onMouseUp, this);
+    }
 }
