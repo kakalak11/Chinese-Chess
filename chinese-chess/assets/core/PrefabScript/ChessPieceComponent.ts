@@ -25,6 +25,7 @@ export default class ChessPieceComponent extends cc.Component {
         (this.node as any).onMouseLeave = this.onMouseLeave.bind(this);
         (this.node as any).sprite = this.sprite.node;
         (this.node as any).isSelected = this.isSelected;
+        (this.node as any).updatePosition = this.updatePosition;
 
         if (this.node) {
             this.node.on(cc.Node.EventType.MOUSE_ENTER, this.onMouseEnter, this);
@@ -44,6 +45,10 @@ export default class ChessPieceComponent extends cc.Component {
         this.node.setContentSize(chessSize, chessSize);
         this.sprite.node.setContentSize(chessSize, chessSize);
     };
+
+    updatePosition() {
+        this.sprite.node.setPosition(cc.Vec2.ZERO);
+    }
 
     onMouseEnter() {
         if (this.isSelected) return;

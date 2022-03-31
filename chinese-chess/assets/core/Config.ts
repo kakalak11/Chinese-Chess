@@ -6,6 +6,8 @@ export default class Config extends cc.Component {
     protected onLoad(): void {
         (this.node as any).config = {
             BOARD_FORMAT: [9, 9, 9, 9, 9, 9, 9, 9, 9],
+            BOARD_WIDTH: 484,
+            BOARD_HEIGHT: 545,
             CHESS_SIZE: 40,
             STEP: 60,
             CELL_SIZE: 60,

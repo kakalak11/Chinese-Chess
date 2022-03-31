@@ -23,6 +23,7 @@ var ChessPieceComponent = /** @class */ (function (_super) {
         this.node.onMouseLeave = this.onMouseLeave.bind(this);
         this.node.sprite = this.sprite.node;
         this.node.isSelected = this.isSelected;
+        this.node.updatePosition = this.updatePosition;
         if (this.node) {
             this.node.on(cc.Node.EventType.MOUSE_ENTER, this.onMouseEnter, this);
             this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.onMouseLeave, this);
@@ -40,6 +41,9 @@ var ChessPieceComponent = /** @class */ (function (_super) {
         this.sprite.node.setContentSize(chessSize, chessSize);
     };
     ;
+    ChessPieceComponent.prototype.updatePosition = function () {
+        this.sprite.node.setPosition(cc.Vec2.ZERO);
+    };
     ChessPieceComponent.prototype.onMouseEnter = function () {
         if (this.isSelected)
             return;

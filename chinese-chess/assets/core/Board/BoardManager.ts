@@ -24,7 +24,6 @@ export default class BoardManager extends cc.Component {
         this.node.on('INIT', this.init, this);
         this.node.on('CHESS_SELECT', this.onChessSelect, this);
         this.node.on('CHESS_UNSELECT', this.onChessUnselect, this);
-        this.node.on('CLICK', this.onClickPosition, this);
 
         this.redColor = cc.Color.RED;
         this.blueColor = cc.Color.BLUE;
@@ -71,6 +70,8 @@ export default class BoardManager extends cc.Component {
             chessPiece.setPosition(position);
             this.chessPieces.push(chessPiece);
         }
+
+        this.node.emit('INIT_CALLBACK', this.onClickPosition);
     };
 
     private _getPosition({ stepX = 0, stepY = 0, isPawn = false }, botSide, isReverse = false): cc.Vec2 {
@@ -133,27 +134,31 @@ export default class BoardManager extends cc.Component {
         this.selectedChess = null;
     };
 
-    protected onClickPosition(event): void {
-        if (!event && !event.position) return;
-        event.stopPropagation();
-        if (!this.selectedChess || this.targetChess) return;
-
+    protected onClickPosition(position: cc.Vec2): void {
+        const isMove = callback.bind(this);
+        if (!position || !isMove(position)) return;
         const { TIME_TWEEN_MOVE } = (this.node as any).config;
-
-        this.selectedPosition = event.position;
-
-        if (this.selectedPosition === this.selectedChess.getPosition()) {
-            this.resetMove();
-            return;
-        }
-
         this._moveTween = cc.tween(this.selectedChess)
-            .to(TIME_TWEEN_MOVE, { position: this.selectedPosition })
-            .call(() => {
-                this._moveTween = null;
-                (this.selectedChess as any).unselect();
-                (this.selectedChess as any).onMouseLeave();
-            })
+            .to(TIME_TWEEN_MOVE, { position: position })
+            .call(this.updatePosition)
+            .start();
+
+        function callback(position): boolean {
+            if (!this.selectedChess) return false;
+            const { STEP } = (this.node as any).config;
+
+            const currentX = this.selectedChess.getPosition().x;
+            const currentY = this.selectedChess.getPosition().y;
+
+            if (!(position.x < (currentX + STEP) && position.x > (currentX - STEP))) return false;
+            if (!(position.y < (currentY + STEP) && position.y > (currentY - STEP))) return false;
+
+            return true;
+        }
+    }
+
+    updatePosition() {
+        this.selectedChess.updatePosition();
     }
 
     resetMove() {

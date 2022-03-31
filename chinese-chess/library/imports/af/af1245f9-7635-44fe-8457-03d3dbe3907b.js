@@ -17,7 +17,6 @@ var BoardManager = /** @class */ (function (_super) {
         this.node.on('INIT', this.init, this);
         this.node.on('CHESS_SELECT', this.onChessSelect, this);
         this.node.on('CHESS_UNSELECT', this.onChessUnselect, this);
-        this.node.on('CLICK', this.onClickPosition, this);
         this.redColor = cc.Color.RED;
         this.blueColor = cc.Color.BLUE;
     };
@@ -62,6 +61,7 @@ var BoardManager = /** @class */ (function (_super) {
             chessPiece.setPosition(position);
             this.chessPieces.push(chessPiece);
         }
+        this.node.emit('INIT_CALLBACK', this.onClickPosition);
     };
     ;
     BoardManager.prototype._getPosition = function (_a, botSide, isReverse) {
@@ -127,26 +127,30 @@ var BoardManager = /** @class */ (function (_super) {
         this.selectedChess = null;
     };
     ;
-    BoardManager.prototype.onClickPosition = function (event) {
-        var _this = this;
-        if (!event && !event.position)
-            return;
-        event.stopPropagation();
-        if (!this.selectedChess || this.targetChess)
+    BoardManager.prototype.onClickPosition = function (position) {
+        var isMove = callback.bind(this);
+        if (!position || !isMove(position))
             return;
         var TIME_TWEEN_MOVE = this.node.config.TIME_TWEEN_MOVE;
-        this.selectedPosition = event.position;
-        if (this.selectedPosition === this.selectedChess.getPosition()) {
-            this.resetMove();
-            return;
-        }
         this._moveTween = cc.tween(this.selectedChess)
-            .to(TIME_TWEEN_MOVE, { position: this.selectedPosition })
-            .call(function () {
-            _this._moveTween = null;
-            _this.selectedChess.unselect();
-            _this.selectedChess.onMouseLeave();
-        });
+            .to(TIME_TWEEN_MOVE, { position: position })
+            .call(this.updatePosition)
+            .start();
+        function callback(position) {
+            if (!this.selectedChess)
+                return false;
+            var STEP = this.node.config.STEP;
+            var currentX = this.selectedChess.getPosition().x;
+            var currentY = this.selectedChess.getPosition().y;
+            if (!(position.x < (currentX + STEP) && position.x > (currentX - STEP)))
+                return false;
+            if (!(position.y < (currentY + STEP) && position.y > (currentY - STEP)))
+                return false;
+            return true;
+        }
+    };
+    BoardManager.prototype.updatePosition = function () {
+        this.selectedChess.updatePosition();
     };
     BoardManager.prototype.resetMove = function () {
         this.selectedChess = null;

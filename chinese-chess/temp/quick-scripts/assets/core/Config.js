@@ -12,6 +12,8 @@ var Config = /** @class */ (function (_super) {
     Config.prototype.onLoad = function () {
         this.node.config = {
             BOARD_FORMAT: [9, 9, 9, 9, 9, 9, 9, 9, 9],
+            BOARD_WIDTH: 484,
+            BOARD_HEIGHT: 545,
             CHESS_SIZE: 40,
             STEP: 60,
             CELL_SIZE: 60,
